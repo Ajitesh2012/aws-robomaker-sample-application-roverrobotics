@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /MyApp/simulation_ws/build/2WD_Rover_app/devel/setup.sh

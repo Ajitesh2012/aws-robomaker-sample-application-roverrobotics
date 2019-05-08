@@ -1,0 +1,147 @@
+[0.198s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.198s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths='.', build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base='log', log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9568aad470>>, merge_install=False, metas='./colcon.meta', packages_above=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9568aad470>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f956845c470>)
+[0.232s] ERROR:colcon.colcon_core.entry_point:Exception loading extension 'colcon_core.package_identification.python': No module named 'setuptools.config', 'setuptools' needs to be at least version 30.3.0, if a newer version is not available from the package manager use 'pip3 install -U setuptools' to update to the latest version
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/entry_point.py", line 98, in load_entry_points
+    extension_type = load_entry_point(entry_point)
+  File "/usr/lib/python3/dist-packages/colcon_core/entry_point.py", line 140, in load_entry_point
+    return entry_point.load()
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2229, in load
+    return self.resolve()
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2235, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+  File "/usr/lib/python3/dist-packages/colcon_core/package_identification/python.py", line 12, in <module>
+    from setuptools.config import read_configuration
+ImportError: No module named 'setuptools.config', 'setuptools' needs to be at least version 30.3.0, if a newer version is not available from the package manager use 'pip3 install -U setuptools' to update to the latest version
+
+[0.236s] ERROR:colcon.colcon_core.entry_point:Exception loading extension 'colcon_core.package_identification.ros': No module named 'setuptools.config', 'setuptools' needs to be at least version 30.3.0, if a newer version is not available from the package manager use 'pip3 install -U setuptools' to update to the latest version
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/entry_point.py", line 98, in load_entry_points
+    extension_type = load_entry_point(entry_point)
+  File "/usr/lib/python3/dist-packages/colcon_core/entry_point.py", line 140, in load_entry_point
+    return entry_point.load()
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2229, in load
+    return self.resolve()
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2235, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+  File "/usr/lib/python3/dist-packages/colcon_ros/package_identification/ros.py", line 12, in <module>
+    from colcon_core.package_identification.python import get_configuration
+  File "/usr/lib/python3/dist-packages/colcon_core/package_identification/python.py", line 12, in <module>
+    from setuptools.config import read_configuration
+ImportError: No module named 'setuptools.config', 'setuptools' needs to be at least version 30.3.0, if a newer version is not available from the package manager use 'pip3 install -U setuptools' to update to the latest version
+
+[0.240s] ERROR:colcon.colcon_core.entry_point:Exception loading extension 'colcon_core.package_identification.python_setup_py': No module named 'setuptools.config', 'setuptools' needs to be at least version 30.3.0, if a newer version is not available from the package manager use 'pip3 install -U setuptools' to update to the latest version
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/entry_point.py", line 98, in load_entry_points
+    extension_type = load_entry_point(entry_point)
+  File "/usr/lib/python3/dist-packages/colcon_core/entry_point.py", line 140, in load_entry_point
+    return entry_point.load()
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2229, in load
+    return self.resolve()
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2235, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 20, in <module>
+    from colcon_core.package_identification.python import \
+  File "/usr/lib/python3/dist-packages/colcon_core/package_identification/python.py", line 12, in <module>
+    from setuptools.config import read_configuration
+ImportError: No module named 'setuptools.config', 'setuptools' needs to be at least version 30.3.0, if a newer version is not available from the package manager use 'pip3 install -U setuptools' to update to the latest version
+
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.242s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/MyApplication/robot_ws'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws) by extensions ['cmake']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws) by extension 'cmake'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws/build) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws/build) ignored
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws/bundle) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws/bundle) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws/bundle) ignored
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws/install) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws/install) ignored
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws/log) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws/log) ignored
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws/src) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws/src) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws/src) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws/src) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws/src) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws/src) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws/src) by extensions ['cmake']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws/src) by extension 'cmake'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws/src/robot_app) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws/src/robot_app) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws/src/robot_app) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws/src/robot_app) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws/src/robot_app) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws/src/robot_app) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws/src/robot_app) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws/src/robot_app) by extensions ['cmake']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/MyApplication/robot_ws/src/robot_app) by extension 'cmake'
+[0.259s] DEBUG:colcon.colcon_core.package_identification:Package '/MyApplication/robot_ws/src/robot_app' with type 'cmake' and name 'robot_app'
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.262s] ERROR:colcon.colcon_core.entry_point:Exception loading extension 'colcon_core.package_augmentation.ros': No module named 'setuptools.config', 'setuptools' needs to be at least version 30.3.0, if a newer version is not available from the package manager use 'pip3 install -U setuptools' to update to the latest version
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/entry_point.py", line 98, in load_entry_points
+    extension_type = load_entry_point(entry_point)
+  File "/usr/lib/python3/dist-packages/colcon_core/entry_point.py", line 140, in load_entry_point
+    return entry_point.load()
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2229, in load
+    return self.resolve()
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2235, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+  File "/usr/lib/python3/dist-packages/colcon_ros/package_identification/ros.py", line 12, in <module>
+    from colcon_core.package_identification.python import get_configuration
+  File "/usr/lib/python3/dist-packages/colcon_core/package_identification/python.py", line 12, in <module>
+    from setuptools.config import read_configuration
+ImportError: No module named 'setuptools.config', 'setuptools' needs to be at least version 30.3.0, if a newer version is not available from the package manager use 'pip3 install -U setuptools' to update to the latest version
+
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'robot_app' build argument 'cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'robot_app' build argument 'cmake_target' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'robot_app' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'robot_app' build argument 'cmake_clean_cache' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'robot_app' build argument 'cmake_clean_first' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'robot_app' build argument 'cmake_force_configure' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'robot_app' build argument 'ament_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'robot_app' build argument 'catkin_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'robot_app' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.266s] DEBUG:colcon.colcon_core.verb:Building package 'robot_app' with the following arguments: {'ament_cmake_args': None, 'build_base': '/MyApplication/robot_ws/build/robot_app', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/MyApplication/robot_ws/install/robot_app', 'merge_install': False, 'path': '/MyApplication/robot_ws/src/robot_app', 'symlink_install': False, 'test_result_base': None}
+[0.268s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.269s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.269s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/MyApplication/robot_ws/src/robot_app'
+[0.274s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.274s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.278s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/opt/ros/kinetic' in the environment variable CMAKE_PREFIX_PATH seems to be a catkin workspace but it doesn't contain any 'local_setup.*' files. Maybe the catkin version is not up-to-date?
+[0.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/MyApplication/robot_ws/build/robot_app': /usr/bin/cmake --build /MyApplication/robot_ws/build/robot_app -- -j4 -l4
+[0.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/MyApplication/robot_ws/build/robot_app' returned '2': /usr/bin/cmake --build /MyApplication/robot_ws/build/robot_app -- -j4 -l4
+[0.334s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.334s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.334s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[0.334s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.338s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.338s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.347s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[0.347s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.348s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[0.348s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.348s] INFO:colcon.colcon_core.shell:Creating prefix script '/MyApplication/robot_ws/install/local_setup.ps1'
+[0.351s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/MyApplication/robot_ws/install/setup.ps1'
+[0.354s] INFO:colcon.colcon_core.shell:Creating prefix script '/MyApplication/robot_ws/install/local_setup.sh'
+[0.356s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/MyApplication/robot_ws/install/setup.sh'
+[0.359s] INFO:colcon.colcon_core.shell:Creating prefix script '/MyApplication/robot_ws/install/local_setup.bash'
+[0.360s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/MyApplication/robot_ws/install/setup.bash'
+[0.363s] INFO:colcon.colcon_core.shell:Creating prefix script '/MyApplication/robot_ws/install/local_setup.zsh'
+[0.364s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/MyApplication/robot_ws/install/setup.zsh'

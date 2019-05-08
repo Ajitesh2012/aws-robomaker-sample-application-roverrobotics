@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/nick/MyApplication/robot_ws/build/robot_app/devel/setup.sh

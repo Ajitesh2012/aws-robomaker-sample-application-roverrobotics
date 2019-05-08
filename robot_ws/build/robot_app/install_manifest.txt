@@ -1,0 +1,6 @@
+/home/nick/MyApplication/robot_ws/install/robot_app/lib/pkgconfig/robot_app.pc
+/home/nick/MyApplication/robot_ws/install/robot_app/share/robot_app/cmake/robot_appConfig.cmake
+/home/nick/MyApplication/robot_ws/install/robot_app/share/robot_app/cmake/robot_appConfig-version.cmake
+/home/nick/MyApplication/robot_ws/install/robot_app/share/robot_app/package.xml
+/home/nick/MyApplication/robot_ws/install/robot_app/lib/robot_app/rotate.py
+/home/nick/MyApplication/robot_ws/install/robot_app/share/robot_app/launch/rotate.launch

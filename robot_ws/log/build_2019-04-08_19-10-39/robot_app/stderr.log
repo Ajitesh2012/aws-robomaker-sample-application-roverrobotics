@@ -1,0 +1,2 @@
+CMake Error: The current CMakeCache.txt directory /MyApplication/robot_ws/build/robot_app/CMakeCache.txt is different than the directory /home/nick/MyApplication/robot_ws/build/robot_app where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source "/MyApplication/robot_ws/src/robot_app/CMakeLists.txt" does not match the source "/home/nick/MyApplication/robot_ws/src/robot_app/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.
