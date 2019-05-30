@@ -1,2 +1,0 @@
-Invoking command in '/MyApplication/robot_ws/build/robot_app': /usr/bin/cmake --build /MyApplication/robot_ws/build/robot_app -- -j4 -l4
-Invoked command in '/MyApplication/robot_ws/build/robot_app' returned '2': /usr/bin/cmake --build /MyApplication/robot_ws/build/robot_app -- -j4 -l4

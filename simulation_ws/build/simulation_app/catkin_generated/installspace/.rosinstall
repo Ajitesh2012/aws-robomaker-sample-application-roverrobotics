@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /MyApp/simulation_ws/install/simulation_app/setup.sh
+    local-name: /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/setup.sh

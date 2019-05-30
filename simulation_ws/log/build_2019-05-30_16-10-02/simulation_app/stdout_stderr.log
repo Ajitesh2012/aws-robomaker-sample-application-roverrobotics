@@ -1,0 +1,55 @@
+-- The C compiler identification is GNU 7.3.0
+-- The CXX compiler identification is GNU 7.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app/devel
+-- Using CMAKE_PREFIX_PATH: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app;/home/nick/MyApp/robot_ws/install/robot_app;/opt/ros/melodic
+-- This workspace overlays: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.15", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app/test_results
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.15") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/lib/pkgconfig/simulation_app.pc
+-- Installing: /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/share/simulation_app/cmake/simulation_appConfig.cmake
+-- Installing: /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/share/simulation_app/cmake/simulation_appConfig-version.cmake
+-- Installing: /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/share/simulation_app/package.xml
+-- Installing: /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/share/simulation_app/launch
+-- Installing: /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/share/simulation_app/launch/spawn_rover.launch
+-- Installing: /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/share/simulation_app/launch/example.launch
+-- Installing: /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/share/simulation_app/worlds
+-- Installing: /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/share/simulation_app/worlds/example.world

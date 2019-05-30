@@ -1,7 +1,0 @@
-/MyApp/simulation_ws/install/2WD_Rover_app/lib/pkgconfig/2WD_Rover_app.pc
-/MyApp/simulation_ws/install/2WD_Rover_app/share/2WD_Rover_app/cmake/2WD_Rover_appConfig.cmake
-/MyApp/simulation_ws/install/2WD_Rover_app/share/2WD_Rover_app/cmake/2WD_Rover_appConfig-version.cmake
-/MyApp/simulation_ws/install/2WD_Rover_app/share/2WD_Rover_app/package.xml
-/MyApp/simulation_ws/install/2WD_Rover_app/share/2WD_Rover_app/launch/spawn_rover.launch
-/MyApp/simulation_ws/install/2WD_Rover_app/share/2WD_Rover_app/launch/example.launch
-/MyApp/simulation_ws/install/2WD_Rover_app/share/2WD_Rover_app/worlds/example.world

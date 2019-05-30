@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/nick/MyApplication/robot_ws/build/robot_app/devel/setup.sh
+    local-name: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/robot_app/devel/setup.sh

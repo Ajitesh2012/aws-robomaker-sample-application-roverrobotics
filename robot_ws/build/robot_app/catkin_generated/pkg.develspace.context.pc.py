@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "rospy;std_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "robot_app"
-PROJECT_SPACE_DIR = "/home/nick/MyApplication/robot_ws/build/robot_app/devel"
+PROJECT_SPACE_DIR = "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/robot_app/devel"
 PROJECT_VERSION = "1.0.0"

@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nick/MyApplication/robot_ws/install/robot_app")
+  set(CMAKE_INSTALL_PREFIX "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/nick/MyApplication/robot_ws/build/robot_app/gtest/googlemock/gtest/cmake_install.cmake")
+  include("/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/robot_app/gtest/googlemock/gtest/cmake_install.cmake")
 
 endif()
 

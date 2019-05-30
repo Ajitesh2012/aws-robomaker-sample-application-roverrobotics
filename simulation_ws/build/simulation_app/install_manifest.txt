@@ -1,7 +1,8 @@
-/MyApp/simulation_ws/install/simulation_app/lib/pkgconfig/simulation_app.pc
-/MyApp/simulation_ws/install/simulation_app/share/simulation_app/cmake/simulation_appConfig.cmake
-/MyApp/simulation_ws/install/simulation_app/share/simulation_app/cmake/simulation_appConfig-version.cmake
-/MyApp/simulation_ws/install/simulation_app/share/simulation_app/package.xml
-/MyApp/simulation_ws/install/simulation_app/share/simulation_app/launch/spawn_rover.launch
-/MyApp/simulation_ws/install/simulation_app/share/simulation_app/launch/example.launch
-/MyApp/simulation_ws/install/simulation_app/share/simulation_app/worlds/example.world
+/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/lib/pkgconfig/simulation_app.pc
+/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/share/simulation_app/cmake/simulation_appConfig.cmake
+/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/share/simulation_app/cmake/simulation_appConfig-version.cmake
+/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/share/simulation_app/package.xml
+/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/share/simulation_app/launch/spawn_rover.launch
+/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/share/simulation_app/launch/example.launch
+/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/share/simulation_app/worlds/WareHouse_Light.world
+/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/share/simulation_app/worlds/example.world

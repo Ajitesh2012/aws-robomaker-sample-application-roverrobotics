@@ -1,0 +1,18 @@
+Invoking command in '/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app': /usr/bin/cmake --build /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app -- -j4 -l4
+Invoked command in '/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app' returned '0': /usr/bin/cmake --build /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app -- -j4 -l4
+Invoking command in '/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app': /usr/bin/cmake --build /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app --target tests -- -j4 -l4
+Built target tests
+Invoked command in '/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app' returned '0': /usr/bin/cmake --build /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app --target tests -- -j4 -l4
+Invoking command in '/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app': /usr/bin/cmake --build /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app --target install
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/lib/pkgconfig/simulation_app.pc
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/share/simulation_app/cmake/simulation_appConfig.cmake
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/share/simulation_app/cmake/simulation_appConfig-version.cmake
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/share/simulation_app/package.xml
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/share/simulation_app/launch
+-- Installing: /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/share/simulation_app/launch/spawn_rover.launch
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/share/simulation_app/launch/example.launch
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/share/simulation_app/worlds
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/share/simulation_app/worlds/example.world
+Invoked command in '/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app' returned '0': /usr/bin/cmake --build /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app --target install

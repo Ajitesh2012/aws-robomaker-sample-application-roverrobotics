@@ -1,8 +1,8 @@
-prefix=/MyApp/simulation_ws/install/simulation_app
+prefix=/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app
 
 Name: simulation_app
 Description: Description of simulation_app
 Version: 1.0.0
 Cflags: 
-Libs: -L/MyApp/simulation_ws/install/simulation_app/lib 
+Libs: -L/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/lib 
 Requires: gazebo_ros

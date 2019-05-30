@@ -1,8 +1,8 @@
-# Install script for directory: /home/nick/MyApplication/robot_ws/src/robot_app
+# Install script for directory: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/robot_app
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nick/MyApplication/robot_ws/install/robot_app")
+  set(CMAKE_INSTALL_PREFIX "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,35 +38,35 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/nick/MyApplication/robot_ws/build/robot_app/catkin_generated/safe_execute_install.cmake")
+  include("/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/robot_app/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nick/MyApplication/robot_ws/build/robot_app/catkin_generated/installspace/robot_app.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/robot_app/catkin_generated/installspace/robot_app.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_app/cmake" TYPE FILE FILES
-    "/home/nick/MyApplication/robot_ws/build/robot_app/catkin_generated/installspace/robot_appConfig.cmake"
-    "/home/nick/MyApplication/robot_ws/build/robot_app/catkin_generated/installspace/robot_appConfig-version.cmake"
+    "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/robot_app/catkin_generated/installspace/robot_appConfig.cmake"
+    "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/robot_app/catkin_generated/installspace/robot_appConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_app" TYPE FILE FILES "/home/nick/MyApplication/robot_ws/src/robot_app/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_app" TYPE FILE FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/robot_app/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/robot_app" TYPE PROGRAM FILES "/home/nick/MyApplication/robot_ws/build/robot_app/catkin_generated/installspace/rotate.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/robot_app" TYPE PROGRAM FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/robot_app/catkin_generated/installspace/rotate.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_app" TYPE DIRECTORY FILES "/home/nick/MyApplication/robot_ws/src/robot_app/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_app" TYPE DIRECTORY FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/robot_app/launch")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/nick/MyApplication/robot_ws/build/robot_app/gtest/cmake_install.cmake")
+  include("/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/robot_app/gtest/cmake_install.cmake")
 
 endif()
 
@@ -78,5 +78,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nick/MyApplication/robot_ws/build/robot_app/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/robot_app/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,8 +1,8 @@
-prefix=/home/nick/MyApplication/robot_ws/install/robot_app
+prefix=/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app
 
 Name: robot_app
 Description: Description of robot_app
 Version: 1.0.0
 Cflags: 
-Libs: -L/home/nick/MyApplication/robot_ws/install/robot_app/lib 
+Libs: -L/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app/lib 
 Requires: rospy std_msgs

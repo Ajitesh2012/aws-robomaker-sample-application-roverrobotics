@@ -1,6 +1,0 @@
-Invoking command in '/home/nick/MyApplication/robot_ws/build/robot_app': /usr/bin/cmake /home/nick/MyApplication/robot_ws/src/robot_app -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/nick/MyApplication/robot_ws/install/robot_app
-Invoked command in '/home/nick/MyApplication/robot_ws/build/robot_app' returned '0': /usr/bin/cmake /home/nick/MyApplication/robot_ws/src/robot_app -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/nick/MyApplication/robot_ws/install/robot_app
-Invoking command in '/home/nick/MyApplication/robot_ws/build/robot_app': /usr/bin/cmake --build /home/nick/MyApplication/robot_ws/build/robot_app -- -j4 -l4
-Invoked command in '/home/nick/MyApplication/robot_ws/build/robot_app' returned '0': /usr/bin/cmake --build /home/nick/MyApplication/robot_ws/build/robot_app -- -j4 -l4
-Invoking command in '/home/nick/MyApplication/robot_ws/build/robot_app': /usr/bin/cmake --build /home/nick/MyApplication/robot_ws/build/robot_app --target install
-Invoked command in '/home/nick/MyApplication/robot_ws/build/robot_app' returned '0': /usr/bin/cmake --build /home/nick/MyApplication/robot_ws/build/robot_app --target install

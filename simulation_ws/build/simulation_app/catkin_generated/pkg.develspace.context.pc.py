@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "gazebo_ros".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "simulation_app"
-PROJECT_SPACE_DIR = "/MyApp/simulation_ws/build/simulation_app/devel"
+PROJECT_SPACE_DIR = "/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app/devel"
 PROJECT_VERSION = "1.0.0"

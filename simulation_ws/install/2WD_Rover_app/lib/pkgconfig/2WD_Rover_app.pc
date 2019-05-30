@@ -1,8 +1,0 @@
-prefix=/MyApp/simulation_ws/install/2WD_Rover_app
-
-Name: 2WD_Rover_app
-Description: Description of 2WD_Rover_app
-Version: 1.0.0
-Cflags: 
-Libs: -L/MyApp/simulation_ws/install/2WD_Rover_app/lib 
-Requires: gazebo_ros
