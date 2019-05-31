@@ -1,0 +1,123 @@
+[1.316s] DEBUG:colcon:Command line arguments: ['/home/nick/.local/bin/colcon', 'build']
+[1.317s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths='.', build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base='log', log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f94ff3e3240>>, merge_install=False, metas='./colcon.meta', packages_above=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f94ff3e3240>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f94ff1487b8>)
+[1.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.450s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws'
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws) by extensions ['ignore', 'ignore_ament_install']
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws) by extension 'ignore'
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws) by extension 'ignore_ament_install'
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws) by extensions ['colcon_pkg']
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws) by extension 'colcon_pkg'
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws) by extensions ['colcon_meta']
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws) by extension 'colcon_meta'
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws) by extensions ['ros']
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws) by extension 'ros'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws) by extensions ['cmake', 'python']
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws) by extension 'cmake'
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws) by extension 'python'
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws) by extensions ['python_setup_py']
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws) by extension 'python_setup_py'
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build) by extension 'ignore'
+[1.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build) ignored
+[1.480s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[1.480s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install) by extension 'ignore'
+[1.480s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install) ignored
+[1.480s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[1.480s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/log) by extension 'ignore'
+[1.480s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/log) ignored
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src) by extension 'ignore'
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src) by extension 'ignore_ament_install'
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src) by extensions ['colcon_pkg']
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src) by extension 'colcon_pkg'
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src) by extensions ['colcon_meta']
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src) by extension 'colcon_meta'
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src) by extensions ['ros']
+[1.483s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src) by extension 'ros'
+[1.483s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src) by extensions ['cmake', 'python']
+[1.483s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src) by extension 'cmake'
+[1.483s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src) by extension 'python'
+[1.483s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src) by extensions ['python_setup_py']
+[1.483s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src) by extension 'python_setup_py'
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/robot_app) by extensions ['ignore', 'ignore_ament_install']
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/robot_app) by extension 'ignore'
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/robot_app) by extension 'ignore_ament_install'
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/robot_app) by extensions ['colcon_pkg']
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/robot_app) by extension 'colcon_pkg'
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/robot_app) by extensions ['colcon_meta']
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/robot_app) by extension 'colcon_meta'
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/robot_app) by extensions ['ros']
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/robot_app) by extension 'ros'
+[1.493s] DEBUG:colcon.colcon_core.package_identification:Package '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/robot_app' with type 'ros.catkin' and name 'robot_app'
+[1.493s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.531s] Level 5:colcon.colcon_core.verb:set package 'robot_app' build argument 'cmake_args' from command line to 'None'
+[1.531s] Level 5:colcon.colcon_core.verb:set package 'robot_app' build argument 'cmake_target' from command line to 'None'
+[1.531s] Level 5:colcon.colcon_core.verb:set package 'robot_app' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.531s] Level 5:colcon.colcon_core.verb:set package 'robot_app' build argument 'cmake_clean_cache' from command line to 'False'
+[1.531s] Level 5:colcon.colcon_core.verb:set package 'robot_app' build argument 'cmake_clean_first' from command line to 'False'
+[1.531s] Level 5:colcon.colcon_core.verb:set package 'robot_app' build argument 'cmake_force_configure' from command line to 'False'
+[1.532s] Level 5:colcon.colcon_core.verb:set package 'robot_app' build argument 'ament_cmake_args' from command line to 'None'
+[1.532s] Level 5:colcon.colcon_core.verb:set package 'robot_app' build argument 'catkin_cmake_args' from command line to 'None'
+[1.532s] Level 5:colcon.colcon_core.verb:set package 'robot_app' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.532s] DEBUG:colcon.colcon_core.verb:Building package 'robot_app' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/robot_app', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app', 'merge_install': False, 'path': '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/robot_app', 'symlink_install': False, 'test_result_base': None}
+[1.554s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.555s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.557s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/robot_app' with build type 'catkin'
+[1.558s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/robot_app'
+[1.576s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.576s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.584s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app' in the environment variable CMAKE_PREFIX_PATH seems to be a catkin workspace but it doesn't contain any 'local_setup.*' files. Maybe the catkin version is not up-to-date?
+[1.584s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app' in the environment variable CMAKE_PREFIX_PATH seems to be a catkin workspace but it doesn't contain any 'local_setup.*' files. Maybe the catkin version is not up-to-date?
+[1.584s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/opt/ros/melodic' in the environment variable CMAKE_PREFIX_PATH seems to be a catkin workspace but it doesn't contain any 'local_setup.*' files. Maybe the catkin version is not up-to-date?
+[1.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/robot_app': /usr/bin/cmake --build /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/robot_app -- -j4 -l4
+[3.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/robot_app' returned '0': /usr/bin/cmake --build /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/robot_app -- -j4 -l4
+[3.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/robot_app': /usr/bin/cmake --build /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/robot_app --target tests -- -j4 -l4
+[3.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/robot_app' returned '0': /usr/bin/cmake --build /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/robot_app --target tests -- -j4 -l4
+[3.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/robot_app': /usr/bin/cmake --build /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/robot_app --target install
+[3.626s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_app', 'ros_package_path')
+[3.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app/share/robot_app/hook/ros_package_path.ps1'
+[3.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/robot_app' returned '0': /usr/bin/cmake --build /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/robot_app --target install
+[3.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app/share/robot_app/hook/ros_package_path.sh'
+[3.641s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app/lib/python2.7/dist-packages'
+[3.641s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_app', 'python2path')
+[3.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app/share/robot_app/hook/python2path.ps1'
+[3.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app/share/robot_app/hook/python2path.sh'
+[3.653s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app/lib/python2.7/site-packages'
+[3.665s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_app)
+[3.683s] Level 1:colcon.colcon_core.environment:checking '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app' for CMake module files
+[3.684s] Level 1:colcon.colcon_core.environment:checking '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app' for CMake config files
+[3.684s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_app', 'cmake_prefix_path')
+[3.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app/share/robot_app/hook/cmake_prefix_path.ps1'
+[3.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app/share/robot_app/hook/cmake_prefix_path.sh'
+[3.697s] Level 1:colcon.colcon_core.environment:checking '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app/lib'
+[3.698s] Level 1:colcon.colcon_core.environment:checking '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app/bin'
+[3.698s] Level 1:colcon.colcon_core.environment:checking '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app/lib/pkgconfig/robot_app.pc'
+[3.698s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_app', 'pkg_config')
+[3.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app/share/robot_app/hook/pkg_config.ps1'
+[3.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app/share/robot_app/hook/pkg_config.sh'
+[3.710s] Level 1:colcon.colcon_core.environment:checking '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app/lib/python3.6/site-packages'
+[3.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app/share/robot_app/package.ps1'
+[3.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app/share/robot_app/package.sh'
+[3.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app/share/robot_app/package.bash'
+[3.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app/share/robot_app/package.zsh'
+[3.728s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app/share/colcon-core/packages/robot_app)
+[3.729s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.731s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.731s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.731s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.751s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.751s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.752s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.763s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.773s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/local_setup.ps1'
+[3.778s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/setup.ps1'
+[3.787s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/local_setup.sh'
+[3.790s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/setup.sh'
+[3.799s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/local_setup.bash'
+[3.800s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/setup.bash'
+[3.810s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/local_setup.zsh'
+[3.811s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/setup.zsh'

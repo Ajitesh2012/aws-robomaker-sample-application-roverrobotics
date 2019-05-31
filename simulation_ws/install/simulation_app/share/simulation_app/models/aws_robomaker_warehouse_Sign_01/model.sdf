@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='aws_robomaker_warehouse_Sign_01'>
+    <link name='body'>
+      <pose frame=''>0 0 0 0 -0 0</pose>
+      <self_collide>0</self_collide>
+      <kinematic>0</kinematic>
+      <gravity>1</gravity>
+	  <inertial>
+        <mass>1</mass>
+        <inertia>
+          <ixx>1.019</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>1.020</iyy>
+          <iyz>0</iyz>
+          <izz>0.369</izz>
+        </inertia>
+      </inertial>
+      <visual name='visual'>
+        <geometry>
+          <mesh>
+            <uri>file://models/aws_SignB_01/meshes/aws_robomaker_warehouse_Sign_01_visual.DAE</uri>
+          </mesh>
+        </geometry>
+		<meta> <layer> 1 </layer></meta>
+      </visual>
+      <collision name='collision_0'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>file://models/aws_SignB_01/meshes/aws_robomaker_warehouse_Sign_01_collision.DAE</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+		<surface>
+          <friction>
+            <ode>
+              <mu>0.2</mu>
+              <mu2>0.2</mu2>
+              <fdir1>0 0 0</fdir1>
+              <slip1>0</slip1>
+              <slip2>0</slip2>
+            </ode>
+        </friction>
+          </surface>
+      </collision>
+    </link>
+    <static>true</static>
+  </model>
+</sdf>

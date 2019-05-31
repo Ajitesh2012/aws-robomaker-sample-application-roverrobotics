@@ -262,7 +262,7 @@ if __name__ == '__main__':
             sys.exit(1)
 
         # environment at generation time
-        CMAKE_PREFIX_PATH = '/home/nick/MyApp/robot_ws/install/robot_app;/opt/ros/melodic'.split(';')
+        CMAKE_PREFIX_PATH = '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app;/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app;/opt/ros/melodic'.split(';')
         # prepend current workspace if not already part of CPP
         base_path = os.path.dirname(__file__)
         if base_path not in CMAKE_PREFIX_PATH:

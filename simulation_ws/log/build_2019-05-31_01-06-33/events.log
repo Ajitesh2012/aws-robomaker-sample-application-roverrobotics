@@ -1,0 +1,60 @@
+[0.000000] (-) TimerEvent: {}
+[0.000355] (simulation_app) JobQueued: {'identifier': 'simulation_app', 'dependencies': OrderedDict()}
+[0.001624] (simulation_app) JobStarted: {'identifier': 'simulation_app'}
+[0.020088] (simulation_app) JobProgress: {'identifier': 'simulation_app', 'progress': 'cmake'}
+[0.020642] (simulation_app) Command: {'cmd': ['/usr/bin/cmake', '/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/src/simulation_app', '-DCMAKE_INSTALL_PREFIX=/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app'], 'cwd': '/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nick'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2634'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/share:/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('OLDPWD', '/home/nick'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/nick'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '2'), ('ROS_IP', '10.0.7.100'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('QT_QPA_PLATFORMTHEME', 'appmenu-qt5'), ('COLCON_PREFIX_PATH', '/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'melodic'), ('LOGNAME', 'nick'), ('GTK_IM_MODULE', 'ibus'), ('_', '/home/nick/.local/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('ROS_VERSION', '1'), ('PKG_CONFIG_PATH', '/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'), ('GAZEBO_MODEL_PATH', '/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/src/simulation_app/models'), ('USERNAME', 'nick'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('GTK2_MODULES', 'overlay-scrollbar'), ('QT_X11_NO_MITSHM', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/melodic/bin:/home/nick/gems/bin:/home/nick/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nick-XPS-15-9550:@/tmp/.ICE-unix/2525,unix/nick-XPS-15-9550:/tmp/.ICE-unix/2525'), ('XDG_MENU_PREFIX', 'gnome-'), ('S_COLORS', 'auto'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d6949761_8132_4481_97c9_43febdacc4d2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.140'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('IS_GAZEBO', 'true'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GEM_HOME', '/home/nick/gems'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/local/share/gazebo-9'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('JAVA_HOME', '/usr/lib/jvm/java-8-openjdk-amd64'), ('PWD', '/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages'), ('ROS_HOSTNAME', '10.0.7.100'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app:/opt/ros/melodic')]), 'shell': False}
+[0.059494] (simulation_app) StdoutLine: {'line': b'-- Using CATKIN_DEVEL_PREFIX: /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app/devel\n'}
+[0.059966] (simulation_app) StdoutLine: {'line': b'-- Using CMAKE_PREFIX_PATH: /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app;/opt/ros/melodic\n'}
+[0.060139] (simulation_app) StdoutLine: {'line': b'-- This workspace overlays: /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app;/opt/ros/melodic\n'}
+[0.081070] (simulation_app) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.15", minimum required is "2") \n'}
+[0.081381] (simulation_app) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python2\n'}
+[0.081558] (simulation_app) StdoutLine: {'line': b'-- Using Debian Python package layout\n'}
+[0.081713] (simulation_app) StdoutLine: {'line': b'-- Using empy: /usr/bin/empy\n'}
+[0.098109] (-) TimerEvent: {}
+[0.198503] (-) TimerEvent: {}
+[0.261211] (simulation_app) StdoutLine: {'line': b'-- Using CATKIN_ENABLE_TESTING: ON\n'}
+[0.261510] (simulation_app) StdoutLine: {'line': b'-- Call enable_testing()\n'}
+[0.261686] (simulation_app) StdoutLine: {'line': b'-- Using CATKIN_TEST_RESULTS_DIR: /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app/test_results\n'}
+[0.285256] (simulation_app) StdoutLine: {'line': b"-- Found gmock sources under '/usr/src/googletest': gmock will be built\n"}
+[0.297352] (simulation_app) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python2 (found version "2.7.15") \n'}
+[0.298593] (-) TimerEvent: {}
+[0.303255] (simulation_app) StdoutLine: {'line': b"-- Found gtest sources under '/usr/src/googletest': gtests will be built\n"}
+[0.303935] (simulation_app) StdoutLine: {'line': b'-- Using Python nosetests: /usr/bin/nosetests-2.7\n'}
+[0.350168] (simulation_app) StdoutLine: {'line': b'-- catkin 0.7.14\n'}
+[0.398737] (-) TimerEvent: {}
+[0.499132] (-) TimerEvent: {}
+[0.554794] (simulation_app) StdoutLine: {'line': b'-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy\n'}
+[0.599220] (-) TimerEvent: {}
+[0.699593] (-) TimerEvent: {}
+[0.704991] (simulation_app) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.705515] (simulation_app) StderrLine: {'line': b'  File "/opt/ros/melodic/share/catkin/cmake/parse_package_xml.py", line 117, in <module>\n'}
+[0.705673] (simulation_app) StderrLine: {'line': b'    main()\n'}
+[0.705814] (simulation_app) StderrLine: {'line': b'  File "/opt/ros/melodic/share/catkin/cmake/parse_package_xml.py", line 103, in main\n'}
+[0.705952] (simulation_app) StderrLine: {'line': b'    package = parse_package(args.package_xml)\n'}
+[0.706089] (simulation_app) StderrLine: {'line': b'  File "/usr/lib/python2.7/dist-packages/catkin_pkg/package.py", line 514, in parse_package\n'}
+[0.706225] (simulation_app) StderrLine: {'line': b'    return parse_package_string(xml, filename, warnings=warnings)\n'}
+[0.706361] (simulation_app) StderrLine: {'line': b'  File "/usr/lib/python2.7/dist-packages/catkin_pkg/package.py", line 709, in parse_package_string\n'}
+[0.706495] (simulation_app) StderrLine: {'line': b"    raise InvalidPackage('Error(s):%s' % (''.join(['\\n- %s' % e for e in errors])), filename)\n"}
+[0.706630] (simulation_app) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/src/simulation_app/package.xml':\n"}
+[0.706770] (simulation_app) StderrLine: {'line': b'Error(s):\n'}
+[0.706903] (simulation_app) StderrLine: {'line': b"- The generic dependency on 'gazebo_ros' is redundant with: exec_depend\n"}
+[0.707037] (simulation_app) StderrLine: {'line': b"- The generic dependency on 'gazebo_plugins' is redundant with: exec_depend\n"}
+[0.709193] (simulation_app) StderrLine: {'line': b'CMake Error at /opt/ros/melodic/share/catkin/cmake/safe_execute_process.cmake:11 (message):\n'}
+[0.709385] (simulation_app) StderrLine: {'line': b'  execute_process(/usr/bin/python2\n'}
+[0.709617] (simulation_app) StderrLine: {'line': b'  "/opt/ros/melodic/share/catkin/cmake/parse_package_xml.py"\n'}
+[0.709752] (simulation_app) StderrLine: {'line': b'  "/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/src/simulation_app/package.xml"\n'}
+[0.709884] (simulation_app) StderrLine: {'line': b'  "/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app/catkin_generated/package.cmake")\n'}
+[0.710051] (simulation_app) StderrLine: {'line': b'  returned error code 1\n'}
+[0.710184] (simulation_app) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.710553] (simulation_app) StderrLine: {'line': b'  /opt/ros/melodic/share/catkin/cmake/catkin_package_xml.cmake:74 (safe_execute_process)\n'}
+[0.710716] (simulation_app) StderrLine: {'line': b'  /opt/ros/melodic/share/catkin/cmake/catkin_package_xml.cmake:50 (_catkin_package_xml)\n'}
+[0.710853] (simulation_app) StderrLine: {'line': b'  /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:99 (catkin_package_xml)\n'}
+[0.710985] (simulation_app) StderrLine: {'line': b'  CMakeLists.txt:9 (catkin_package)\n'}
+[0.711113] (simulation_app) StderrLine: {'line': b'\n'}
+[0.711242] (simulation_app) StderrLine: {'line': b'\n'}
+[0.711368] (simulation_app) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.711502] (simulation_app) StdoutLine: {'line': b'See also "/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app/CMakeFiles/CMakeOutput.log".\n'}
+[0.711633] (simulation_app) StdoutLine: {'line': b'See also "/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app/CMakeFiles/CMakeError.log".\n'}
+[0.713858] (simulation_app) CommandEnded: {'returncode': 1}
+[0.714429] (simulation_app) JobEnded: {'identifier': 'simulation_app', 'rc': 1}
+[0.726067] (-) EventReactorShutdown: {}

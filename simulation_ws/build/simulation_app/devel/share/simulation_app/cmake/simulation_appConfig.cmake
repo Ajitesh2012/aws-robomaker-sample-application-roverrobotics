@@ -129,7 +129,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app/devel/lib;/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app/lib;/opt/ros/melodic/lib)
+    foreach(path /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

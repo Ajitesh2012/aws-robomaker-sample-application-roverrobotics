@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2019-04-01T05:39:22Z</created><keywords></keywords><modified>2019-04-01T05:39:22Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Z_UP</up_axis></asset>
+  <library_materials>
+    <material id="Material #949358" name="Material #949358">
+      <instance_effect url="#Material #949358-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Material #949358-fx" name="Material #949358">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.588000  0.588000 0.588000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="aws_robomaker_warehouse_Roof_01_collision-lib" name="aws_robomaker_warehouse_Roof_01_collisionMesh">
+      <mesh>
+        <source id="aws_robomaker_warehouse_Roof_01_collision-POSITION">
+          <float_array id="aws_robomaker_warehouse_Roof_01_collision-POSITION-array" count="36">
+3750.000000 -5000.000000 1384.574219
+3750.000000 5000.000000 1384.574219
+-3750.000000 5000.000000 1384.574219
+-3750.000000 -5000.000000 1384.574219
+3750.000000 -5000.000000 1218.414307
+3750.000000 5000.000000 1218.414307
+-3750.000000 5000.000000 1218.414307
+-3750.000000 -5000.000000 1218.414307
+0.000000 5000.000000 1536.595703
+0.000000 -5000.000000 1536.595703
+0.000000 5000.000000 1218.414307
+0.000000 -5000.000000 1218.414307
+</float_array>
+          <technique_common>
+            <accessor source="#aws_robomaker_warehouse_Roof_01_collision-POSITION-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="aws_robomaker_warehouse_Roof_01_collision-Normal0">
+          <float_array id="aws_robomaker_warehouse_Roof_01_collision-Normal0-array" count="180">
+0.040506 0.000000 0.999179
+0.040506 0.000000 0.999179
+0.040506 0.000000 0.999179
+0.040506 0.000000 0.999179
+0.040506 0.000000 0.999179
+0.040506 0.000000 0.999179
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+-0.040506 0.000000 0.999179
+-0.040506 0.000000 0.999179
+-0.040506 0.000000 0.999179
+-0.040506 0.000000 0.999179
+-0.040506 0.000000 0.999179
+-0.040506 0.000000 0.999179
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#aws_robomaker_warehouse_Roof_01_collision-Normal0-array" count="60" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="aws_robomaker_warehouse_Roof_01_collision-UV0">
+          <float_array id="aws_robomaker_warehouse_Roof_01_collision-UV0-array" count="24">
+29.196922 0.000502
+29.196922 38.929070
+0.000497 38.929070
+0.000497 0.000502
+29.196922 0.000502
+29.196922 38.929070
+0.000497 38.929070
+0.000497 0.000502
+14.598710 38.929070
+14.598709 0.000502
+14.598710 38.929070
+14.598709 0.000502
+</float_array>
+          <technique_common>
+            <accessor source="#aws_robomaker_warehouse_Roof_01_collision-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="aws_robomaker_warehouse_Roof_01_collision-VERTEX">
+          <input semantic="POSITION" source="#aws_robomaker_warehouse_Roof_01_collision-POSITION"/>
+        </vertices>
+        <triangles count="20" material="Material #949358"><input semantic="VERTEX" offset="0" source="#aws_robomaker_warehouse_Roof_01_collision-VERTEX"/><input semantic="NORMAL" offset="1" source="#aws_robomaker_warehouse_Roof_01_collision-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#aws_robomaker_warehouse_Roof_01_collision-UV0"/><p> 8 0 8 9 1 9 1 2 1 1 3 1 9 4 9 0 5 0 4 6 4 1 7 1 0 8 0 1 9 1 4 10 4 5 11 5 10 12 10 2 13 2 8 14 8 2 15 2 10 16 10 6 17 6 6 18 6 3 19 3 2 20 2 3 21 3 6 22 6 7 23 7 11 24 11 0 25 0 9 26 9 0 27 0 11 28 11 4 29 4 5 30 5 4 31 4 11 32 11 11 33 11 10 34 10 5 35 5 9 36 9 8 37 8 2 38 2 2 39 2 3 40 3 9 41 9 5 42 5 10 43 10 1 44 1 8 45 8 1 46 1 10 47 10 7 48 7 11 49 11 3 50 3 9 51 9 3 52 3 11 53 11 10 54 10 11 55 11 7 56 7 7 57 7 6 58 6 10 59 10</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="aws_robomaker_warehouse_Roof_01_collision" name="aws_robomaker_warehouse_Roof_01_collision">
+      <node name="aws_robomaker_warehouse_Roof_01_collision" id="aws_robomaker_warehouse_Roof_01_collision" layer="LU" sid="aws_robomaker_warehouse_Roof_01_collision"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#aws_robomaker_warehouse_Roof_01_collision-lib"><bind_material><technique_common><instance_material symbol="Material #949358" target="#Material #949358"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>30.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.000000</start_time><end_time>3.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#aws_robomaker_warehouse_Roof_01_collision"></instance_visual_scene>
+  </scene>
+</COLLADA>

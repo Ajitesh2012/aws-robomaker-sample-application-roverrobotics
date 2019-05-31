@@ -8,6 +8,6 @@ find_package(catkin REQUIRED COMPONENTS
 
 catkin_package(DEPENDS gazebo_ros)
 
-install(DIRECTORY launch worlds
+install(DIRECTORY launch models worlds urdf
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )

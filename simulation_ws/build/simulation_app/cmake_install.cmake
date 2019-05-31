@@ -55,7 +55,9 @@ endif()
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/simulation_app" TYPE DIRECTORY FILES
     "/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/src/simulation_app/launch"
+    "/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/src/simulation_app/models"
     "/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/src/simulation_app/worlds"
+    "/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/src/simulation_app/urdf"
     )
 endif()
 
