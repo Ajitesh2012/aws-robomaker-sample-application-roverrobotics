@@ -1,0 +1,8 @@
+prefix=/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick
+
+Name: bno055_usb_stick
+Description: Description of bno055_usb_stick
+Version: 0.0.0
+Cflags: -I/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick/include
+Libs: -L/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick/lib /usr/lib/x86_64-linux-gnu/libboost_system.so
+Requires: bno055_usb_stick_msgs geometry_msgs roscpp sensor_msgs tf

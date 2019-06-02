@@ -1,0 +1,17 @@
+Invoking command in '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_control_input_manager': /usr/bin/cmake --build /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_control_input_manager -- -j4 -l4
+Invoked command in '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_control_input_manager' returned '0': /usr/bin/cmake --build /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_control_input_manager -- -j4 -l4
+Invoking command in '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_control_input_manager': /usr/bin/cmake --build /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_control_input_manager --target tests -- -j4 -l4
+Built target tests
+Invoked command in '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_control_input_manager' returned '0': /usr/bin/cmake --build /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_control_input_manager --target tests -- -j4 -l4
+Invoking command in '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_control_input_manager': /usr/bin/cmake --build /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_control_input_manager --target install
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_control_input_manager/lib/pkgconfig/rr_control_input_manager.pc
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_control_input_manager/share/rr_control_input_manager/cmake/rr_control_input_managerConfig.cmake
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_control_input_manager/share/rr_control_input_manager/cmake/rr_control_input_managerConfig-version.cmake
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_control_input_manager/share/rr_control_input_manager/package.xml
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_control_input_manager/share/rr_control_input_manager/launch
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_control_input_manager/share/rr_control_input_manager/launch/example.launch
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_control_input_manager/share/rr_control_input_manager/control_input_manager.py
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_control_input_manager/share/rr_control_input_manager/xbox_mapper.py
+Invoked command in '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_control_input_manager' returned '0': /usr/bin/cmake --build /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_control_input_manager --target install

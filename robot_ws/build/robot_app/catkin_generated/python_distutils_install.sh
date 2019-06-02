@@ -14,7 +14,7 @@ fi
 
 echo_and_run() { echo "+ $@" ; "$@" ; }
 
-echo_and_run cd "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/robot_app"
+echo_and_run cd "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src_old/robot_app"
 
 # ensure that Python install destination exists
 echo_and_run mkdir -p "$DESTDIR/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app/lib/python2.7/dist-packages"
@@ -26,7 +26,7 @@ echo_and_run /usr/bin/env \
     PYTHONPATH="/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app/lib/python2.7/dist-packages:/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/robot_app/lib/python2.7/dist-packages:$PYTHONPATH" \
     CATKIN_BINARY_DIR="/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/robot_app" \
     "/usr/bin/python2" \
-    "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/robot_app/setup.py" \
+    "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src_old/robot_app/setup.py" \
     build --build-base "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/robot_app" \
     install \
     $DESTDIR_ARG \

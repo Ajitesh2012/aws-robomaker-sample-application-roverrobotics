@@ -1,0 +1,91 @@
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target _bno055_usb_stick_msgs_generate_messages_check_deps_CalibrationStatus
+[  0%] Built target _bno055_usb_stick_msgs_generate_messages_check_deps_EulerAngles
+[  0%] Built target _bno055_usb_stick_msgs_generate_messages_check_deps_Output
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+[ 17%] Built target bno055_usb_stick_msgs_generate_messages_cpp
+[ 35%] Built target bno055_usb_stick_msgs_generate_messages_nodejs
+[ 58%] Built target bno055_usb_stick_msgs_generate_messages_py
+[ 76%] Built target bno055_usb_stick_msgs_generate_messages_lisp
+[100%] Built target bno055_usb_stick_msgs_generate_messages_eus
+[100%] Built target bno055_usb_stick_msgs_generate_messages
+Built target tests
+[  0%] Built target _bno055_usb_stick_msgs_generate_messages_check_deps_EulerAngles
+[  0%] Built target _bno055_usb_stick_msgs_generate_messages_check_deps_CalibrationStatus
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target _bno055_usb_stick_msgs_generate_messages_check_deps_Output
+[  0%] Built target std_msgs_generate_messages_cpp
+[ 17%] Built target bno055_usb_stick_msgs_generate_messages_cpp
+[ 17%] Built target std_msgs_generate_messages_nodejs
+[ 17%] Built target geometry_msgs_generate_messages_nodejs
+[ 35%] Built target bno055_usb_stick_msgs_generate_messages_nodejs
+[ 35%] Built target std_msgs_generate_messages_lisp
+[ 35%] Built target geometry_msgs_generate_messages_lisp
+[ 52%] Built target bno055_usb_stick_msgs_generate_messages_lisp
+[ 52%] Built target std_msgs_generate_messages_py
+[ 52%] Built target geometry_msgs_generate_messages_py
+[ 76%] Built target bno055_usb_stick_msgs_generate_messages_py
+[ 76%] Built target std_msgs_generate_messages_eus
+[ 76%] Built target geometry_msgs_generate_messages_eus
+[100%] Built target bno055_usb_stick_msgs_generate_messages_eus
+[100%] Built target bno055_usb_stick_msgs_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/share/bno055_usb_stick_msgs/msg/CalibrationStatus.msg
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/share/bno055_usb_stick_msgs/msg/EulerAngles.msg
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/share/bno055_usb_stick_msgs/msg/Output.msg
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/share/bno055_usb_stick_msgs/cmake/bno055_usb_stick_msgs-msg-paths.cmake
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/include/bno055_usb_stick_msgs
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/include/bno055_usb_stick_msgs/CalibrationStatus.h
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/include/bno055_usb_stick_msgs/EulerAngles.h
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/include/bno055_usb_stick_msgs/Output.h
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/share/roseus/ros/bno055_usb_stick_msgs
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/share/roseus/ros/bno055_usb_stick_msgs/manifest.l
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/share/roseus/ros/bno055_usb_stick_msgs/msg
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/share/roseus/ros/bno055_usb_stick_msgs/msg/CalibrationStatus.l
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/share/roseus/ros/bno055_usb_stick_msgs/msg/EulerAngles.l
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/share/roseus/ros/bno055_usb_stick_msgs/msg/Output.l
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/share/common-lisp/ros/bno055_usb_stick_msgs
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/share/common-lisp/ros/bno055_usb_stick_msgs/msg
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/share/common-lisp/ros/bno055_usb_stick_msgs/msg/Output.lisp
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/share/common-lisp/ros/bno055_usb_stick_msgs/msg/_package_Output.lisp
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/share/common-lisp/ros/bno055_usb_stick_msgs/msg/_package_EulerAngles.lisp
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/share/common-lisp/ros/bno055_usb_stick_msgs/msg/_package.lisp
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/share/common-lisp/ros/bno055_usb_stick_msgs/msg/_package_CalibrationStatus.lisp
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/share/common-lisp/ros/bno055_usb_stick_msgs/msg/CalibrationStatus.lisp
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/share/common-lisp/ros/bno055_usb_stick_msgs/msg/bno055_usb_stick_msgs-msg.asd
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/share/common-lisp/ros/bno055_usb_stick_msgs/msg/EulerAngles.lisp
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/share/gennodejs/ros/bno055_usb_stick_msgs
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/share/gennodejs/ros/bno055_usb_stick_msgs/msg
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/share/gennodejs/ros/bno055_usb_stick_msgs/msg/EulerAngles.js
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/share/gennodejs/ros/bno055_usb_stick_msgs/msg/Output.js
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/share/gennodejs/ros/bno055_usb_stick_msgs/msg/CalibrationStatus.js
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/share/gennodejs/ros/bno055_usb_stick_msgs/msg/_index.js
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/share/gennodejs/ros/bno055_usb_stick_msgs/_index.js
+Listing /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/bno055_usb_stick_msgs/devel/lib/python2.7/dist-packages/bno055_usb_stick_msgs ...
+Listing /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/bno055_usb_stick_msgs/devel/lib/python2.7/dist-packages/bno055_usb_stick_msgs/msg ...
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/lib/python2.7/dist-packages/bno055_usb_stick_msgs
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/lib/python2.7/dist-packages/bno055_usb_stick_msgs/__init__.py
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/lib/python2.7/dist-packages/bno055_usb_stick_msgs/__init__.pyc
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/lib/python2.7/dist-packages/bno055_usb_stick_msgs/msg
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/lib/python2.7/dist-packages/bno055_usb_stick_msgs/msg/_CalibrationStatus.py
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/lib/python2.7/dist-packages/bno055_usb_stick_msgs/msg/_Output.py
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/lib/python2.7/dist-packages/bno055_usb_stick_msgs/msg/__init__.py
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/lib/python2.7/dist-packages/bno055_usb_stick_msgs/msg/__init__.pyc
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/lib/python2.7/dist-packages/bno055_usb_stick_msgs/msg/_Output.pyc
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/lib/python2.7/dist-packages/bno055_usb_stick_msgs/msg/_EulerAngles.py
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/lib/python2.7/dist-packages/bno055_usb_stick_msgs/msg/_CalibrationStatus.pyc
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/lib/python2.7/dist-packages/bno055_usb_stick_msgs/msg/_EulerAngles.pyc
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/lib/pkgconfig/bno055_usb_stick_msgs.pc
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/share/bno055_usb_stick_msgs/cmake/bno055_usb_stick_msgs-msg-extras.cmake
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/share/bno055_usb_stick_msgs/cmake/bno055_usb_stick_msgsConfig.cmake
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/share/bno055_usb_stick_msgs/cmake/bno055_usb_stick_msgsConfig-version.cmake
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/share/bno055_usb_stick_msgs/package.xml

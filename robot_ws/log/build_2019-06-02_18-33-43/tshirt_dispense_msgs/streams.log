@@ -1,0 +1,138 @@
+Invoking command in '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirt_dispense_msgs': /usr/bin/cmake --build /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirt_dispense_msgs -- -j4 -l4
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _tshirt_dispense_msgs_generate_messages_check_deps_TShirtDispenseAction
+[  0%] Built target _tshirt_dispense_msgs_generate_messages_check_deps_TShirtDispenseResult
+[  0%] Built target _tshirt_dispense_msgs_generate_messages_check_deps_TShirtDispenseGoal
+[  0%] Built target _tshirt_dispense_msgs_generate_messages_check_deps_TShirtDispenseActionFeedback
+[  0%] Built target _tshirt_dispense_msgs_generate_messages_check_deps_TShirtDispenseActionGoal
+[  0%] Built target _tshirt_dispense_msgs_generate_messages_check_deps_TShirtDispenseFeedback
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _tshirt_dispense_msgs_generate_messages_check_deps_TShirtDispenseActionResult
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[ 21%] Built target tshirt_dispense_msgs_generate_messages_py
+[ 43%] Built target tshirt_dispense_msgs_generate_messages_eus
+[ 62%] Built target tshirt_dispense_msgs_generate_messages_nodejs
+[ 81%] Built target tshirt_dispense_msgs_generate_messages_lisp
+[100%] Built target tshirt_dispense_msgs_generate_messages_cpp
+[100%] Built target tshirt_dispense_msgs_generate_messages
+Invoked command in '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirt_dispense_msgs' returned '0': /usr/bin/cmake --build /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirt_dispense_msgs -- -j4 -l4
+Invoking command in '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirt_dispense_msgs': /usr/bin/cmake --build /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirt_dispense_msgs --target tests -- -j4 -l4
+Built target tests
+Invoked command in '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirt_dispense_msgs' returned '0': /usr/bin/cmake --build /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirt_dispense_msgs --target tests -- -j4 -l4
+Invoking command in '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirt_dispense_msgs': /usr/bin/cmake --build /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirt_dispense_msgs --target install
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _tshirt_dispense_msgs_generate_messages_check_deps_TShirtDispenseAction
+[  0%] Built target _tshirt_dispense_msgs_generate_messages_check_deps_TShirtDispenseResult
+[  0%] Built target _tshirt_dispense_msgs_generate_messages_check_deps_TShirtDispenseGoal
+[  0%] Built target _tshirt_dispense_msgs_generate_messages_check_deps_TShirtDispenseActionGoal
+[  0%] Built target _tshirt_dispense_msgs_generate_messages_check_deps_TShirtDispenseActionFeedback
+[  0%] Built target _tshirt_dispense_msgs_generate_messages_check_deps_TShirtDispenseFeedback
+[  0%] Built target _tshirt_dispense_msgs_generate_messages_check_deps_TShirtDispenseActionResult
+[ 18%] Built target tshirt_dispense_msgs_generate_messages_nodejs
+[ 18%] Built target std_msgs_generate_messages_eus
+[ 18%] Built target actionlib_msgs_generate_messages_eus
+[ 40%] Built target tshirt_dispense_msgs_generate_messages_eus
+[ 40%] Built target std_msgs_generate_messages_py
+[ 40%] Built target actionlib_msgs_generate_messages_py
+[ 62%] Built target tshirt_dispense_msgs_generate_messages_py
+[ 62%] Built target actionlib_msgs_generate_messages_cpp
+[ 62%] Built target std_msgs_generate_messages_cpp
+[ 81%] Built target tshirt_dispense_msgs_generate_messages_cpp
+[ 81%] Built target std_msgs_generate_messages_lisp
+[ 81%] Built target actionlib_msgs_generate_messages_lisp
+[100%] Built target tshirt_dispense_msgs_generate_messages_lisp
+[100%] Built target tshirt_dispense_msgs_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/tshirt_dispense_msgs/actions/TShirtDispense.action
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/tshirt_dispense_msgs/msg/TShirtDispenseAction.msg
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/tshirt_dispense_msgs/msg/TShirtDispenseActionGoal.msg
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/tshirt_dispense_msgs/msg/TShirtDispenseActionResult.msg
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/tshirt_dispense_msgs/msg/TShirtDispenseActionFeedback.msg
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/tshirt_dispense_msgs/msg/TShirtDispenseGoal.msg
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/tshirt_dispense_msgs/msg/TShirtDispenseResult.msg
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/tshirt_dispense_msgs/msg/TShirtDispenseFeedback.msg
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/tshirt_dispense_msgs/cmake/tshirt_dispense_msgs-msg-paths.cmake
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/include/tshirt_dispense_msgs
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/include/tshirt_dispense_msgs/TShirtDispenseActionGoal.h
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/include/tshirt_dispense_msgs/TShirtDispenseResult.h
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/include/tshirt_dispense_msgs/TShirtDispenseActionFeedback.h
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/include/tshirt_dispense_msgs/TShirtDispenseGoal.h
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/include/tshirt_dispense_msgs/TShirtDispenseAction.h
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/include/tshirt_dispense_msgs/TShirtDispenseFeedback.h
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/include/tshirt_dispense_msgs/TShirtDispenseActionResult.h
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/roseus/ros/tshirt_dispense_msgs
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/roseus/ros/tshirt_dispense_msgs/manifest.l
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/roseus/ros/tshirt_dispense_msgs/msg
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/roseus/ros/tshirt_dispense_msgs/msg/TShirtDispenseResult.l
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/roseus/ros/tshirt_dispense_msgs/msg/TShirtDispenseAction.l
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/roseus/ros/tshirt_dispense_msgs/msg/TShirtDispenseActionResult.l
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/roseus/ros/tshirt_dispense_msgs/msg/TShirtDispenseActionFeedback.l
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/roseus/ros/tshirt_dispense_msgs/msg/TShirtDispenseActionGoal.l
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/roseus/ros/tshirt_dispense_msgs/msg/TShirtDispenseGoal.l
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/roseus/ros/tshirt_dispense_msgs/msg/TShirtDispenseFeedback.l
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/common-lisp/ros/tshirt_dispense_msgs
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/common-lisp/ros/tshirt_dispense_msgs/msg
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/common-lisp/ros/tshirt_dispense_msgs/msg/_package_TShirtDispenseFeedback.lisp
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/common-lisp/ros/tshirt_dispense_msgs/msg/_package_TShirtDispenseResult.lisp
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/common-lisp/ros/tshirt_dispense_msgs/msg/_package_TShirtDispenseGoal.lisp
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/common-lisp/ros/tshirt_dispense_msgs/msg/_package_TShirtDispenseActionResult.lisp
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/common-lisp/ros/tshirt_dispense_msgs/msg/TShirtDispenseActionResult.lisp
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/common-lisp/ros/tshirt_dispense_msgs/msg/tshirt_dispense_msgs-msg.asd
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/common-lisp/ros/tshirt_dispense_msgs/msg/TShirtDispenseActionGoal.lisp
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/common-lisp/ros/tshirt_dispense_msgs/msg/_package_TShirtDispenseAction.lisp
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/common-lisp/ros/tshirt_dispense_msgs/msg/_package.lisp
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/common-lisp/ros/tshirt_dispense_msgs/msg/_package_TShirtDispenseActionFeedback.lisp
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/common-lisp/ros/tshirt_dispense_msgs/msg/TShirtDispenseGoal.lisp
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/common-lisp/ros/tshirt_dispense_msgs/msg/TShirtDispenseResult.lisp
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/common-lisp/ros/tshirt_dispense_msgs/msg/_package_TShirtDispenseActionGoal.lisp
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/common-lisp/ros/tshirt_dispense_msgs/msg/TShirtDispenseAction.lisp
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/common-lisp/ros/tshirt_dispense_msgs/msg/TShirtDispenseActionFeedback.lisp
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/common-lisp/ros/tshirt_dispense_msgs/msg/TShirtDispenseFeedback.lisp
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/gennodejs/ros/tshirt_dispense_msgs
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/gennodejs/ros/tshirt_dispense_msgs/msg
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/gennodejs/ros/tshirt_dispense_msgs/msg/TShirtDispenseResult.js
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/gennodejs/ros/tshirt_dispense_msgs/msg/TShirtDispenseActionFeedback.js
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/gennodejs/ros/tshirt_dispense_msgs/msg/TShirtDispenseActionGoal.js
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/gennodejs/ros/tshirt_dispense_msgs/msg/TShirtDispenseActionResult.js
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/gennodejs/ros/tshirt_dispense_msgs/msg/TShirtDispenseAction.js
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/gennodejs/ros/tshirt_dispense_msgs/msg/TShirtDispenseFeedback.js
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/gennodejs/ros/tshirt_dispense_msgs/msg/_index.js
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/gennodejs/ros/tshirt_dispense_msgs/msg/TShirtDispenseGoal.js
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/gennodejs/ros/tshirt_dispense_msgs/_index.js
+Listing /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirt_dispense_msgs/devel/lib/python2.7/dist-packages/tshirt_dispense_msgs ...
+Listing /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirt_dispense_msgs/devel/lib/python2.7/dist-packages/tshirt_dispense_msgs/msg ...
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/lib/python2.7/dist-packages/tshirt_dispense_msgs
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/lib/python2.7/dist-packages/tshirt_dispense_msgs/__init__.py
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/lib/python2.7/dist-packages/tshirt_dispense_msgs/__init__.pyc
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/lib/python2.7/dist-packages/tshirt_dispense_msgs/msg
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/lib/python2.7/dist-packages/tshirt_dispense_msgs/msg/_TShirtDispenseResult.py
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/lib/python2.7/dist-packages/tshirt_dispense_msgs/msg/_TShirtDispenseGoal.py
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/lib/python2.7/dist-packages/tshirt_dispense_msgs/msg/_TShirtDispenseActionFeedback.py
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/lib/python2.7/dist-packages/tshirt_dispense_msgs/msg/_TShirtDispenseAction.py
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/lib/python2.7/dist-packages/tshirt_dispense_msgs/msg/__init__.py
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/lib/python2.7/dist-packages/tshirt_dispense_msgs/msg/_TShirtDispenseGoal.pyc
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/lib/python2.7/dist-packages/tshirt_dispense_msgs/msg/_TShirtDispenseActionGoal.pyc
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/lib/python2.7/dist-packages/tshirt_dispense_msgs/msg/_TShirtDispenseActionFeedback.pyc
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/lib/python2.7/dist-packages/tshirt_dispense_msgs/msg/__init__.pyc
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/lib/python2.7/dist-packages/tshirt_dispense_msgs/msg/_TShirtDispenseActionResult.py
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/lib/python2.7/dist-packages/tshirt_dispense_msgs/msg/_TShirtDispenseActionGoal.py
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/lib/python2.7/dist-packages/tshirt_dispense_msgs/msg/_TShirtDispenseAction.pyc
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/lib/python2.7/dist-packages/tshirt_dispense_msgs/msg/_TShirtDispenseResult.pyc
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/lib/python2.7/dist-packages/tshirt_dispense_msgs/msg/_TShirtDispenseFeedback.pyc
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/lib/python2.7/dist-packages/tshirt_dispense_msgs/msg/_TShirtDispenseFeedback.py
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/lib/python2.7/dist-packages/tshirt_dispense_msgs/msg/_TShirtDispenseActionResult.pyc
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/lib/pkgconfig/tshirt_dispense_msgs.pc
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/tshirt_dispense_msgs/cmake/tshirt_dispense_msgs-msg-extras.cmake
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/tshirt_dispense_msgs/cmake/tshirt_dispense_msgsConfig.cmake
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/tshirt_dispense_msgs/cmake/tshirt_dispense_msgsConfig-version.cmake
+-- Up-to-date: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/share/tshirt_dispense_msgs/package.xml
+Invoked command in '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirt_dispense_msgs' returned '0': /usr/bin/cmake --build /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirt_dispense_msgs --target install

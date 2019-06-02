@@ -1,0 +1,56 @@
+Invoking command in '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot': /usr/bin/cmake /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/tshirtbot -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirtbot
+-- The C compiler identification is GNU 7.3.0
+-- The CXX compiler identification is GNU 7.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/devel
+-- Using CMAKE_PREFIX_PATH: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app;/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app;/opt/ros/melodic
+-- This workspace overlays: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app;/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.15", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/test_results
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.15") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Generating .msg files for action tshirtbot/TShirtSize /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/tshirtbot/action/TShirtSize.action
+Generating for action TShirtSize
+-- tshirtbot: 7 messages, 0 services
+CMake Error at /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:196 (message):
+  catkin_package() the catkin package 'sensor_msgs' has been
+  find_package()-ed but is not listed as a build dependency in the
+  package.xml
+Call Stack (most recent call first):
+  /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+  CMakeLists.txt:43 (catkin_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/CMakeFiles/CMakeOutput.log".
+See also "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/CMakeFiles/CMakeError.log".
+Invoked command in '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot' returned '1': /usr/bin/cmake /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/tshirtbot -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirtbot

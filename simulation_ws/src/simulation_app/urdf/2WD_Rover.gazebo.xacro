@@ -50,7 +50,7 @@
       <topicName>imu</topicName>
       <serviceName>imu_service</serviceName>
       <gaussianNoise>0.0</gaussianNoise>
-      <updateRate>200</updateRate>
+      <updateRate>30</updateRate>
       <imu>
         <noise>
           <type>gaussian</type>
@@ -79,7 +79,7 @@
     <material>Gazebo/FlatBlack</material>
     <sensor type="ray" name="lds_lfcd_sensor">
       <pose>0 0 0 0 0 0</pose>
-      <update_rate>5</update_rate>
+      <update_rate>13</update_rate>
       <ray>
         <scan>
           <horizontal>
@@ -110,7 +110,7 @@
 
   <gazebo>
     <plugin name="turtlebot3_waffle_controller" filename="libgazebo_ros_diff_drive.so">
-      <commandTopic>cmd_vel</commandTopic>
+        <commandTopic>cmd_vel/managed</commandTopic>
       <odometryTopic>odom</odometryTopic>
       <odometryFrame>odom</odometryFrame>
       <odometrySource>world</odometrySource>

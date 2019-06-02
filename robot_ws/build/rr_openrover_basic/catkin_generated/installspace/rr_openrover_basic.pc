@@ -1,0 +1,8 @@
+prefix=/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic
+
+Name: rr_openrover_basic
+Description: Description of rr_openrover_basic
+Version: 0.6.2
+Cflags: -I/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/include
+Libs: -L/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/lib 
+Requires: message_runtime

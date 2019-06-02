@@ -1,0 +1,8 @@
+prefix=/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/bno055_usb_stick_msgs/devel
+
+Name: bno055_usb_stick_msgs
+Description: Description of bno055_usb_stick_msgs
+Version: 0.0.0
+Cflags: -I/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/bno055_usb_stick_msgs/devel/include
+Libs: -L/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/bno055_usb_stick_msgs/devel/lib 
+Requires: geometry_msgs message_runtime std_msgs

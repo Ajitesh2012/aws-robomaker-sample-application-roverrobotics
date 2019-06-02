@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/robot_app
+# Source directory: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src_old/robot_app
 # Build directory: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/robot_app
 # 
 # This file includes the relevant testing commands required for 

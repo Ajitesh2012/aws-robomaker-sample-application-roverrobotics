@@ -337,7 +337,7 @@ message_runtime_DIR:PATH=/opt/ros/melodic/share/message_runtime/cmake
 robot_app_BINARY_DIR:STATIC=/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/robot_app
 
 //Value Computed by CMake
-robot_app_SOURCE_DIR:STATIC=/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/robot_app
+robot_app_SOURCE_DIR:STATIC=/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src_old/robot_app
 
 //The directory containing a CMake configuration file for roscpp_serialization.
 roscpp_serialization_DIR:PATH=/opt/ros/melodic/share/roscpp_serialization/cmake
@@ -444,7 +444,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/robot_app
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src_old/robot_app
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

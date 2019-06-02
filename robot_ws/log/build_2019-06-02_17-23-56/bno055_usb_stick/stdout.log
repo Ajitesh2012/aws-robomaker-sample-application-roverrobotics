@@ -1,0 +1,19 @@
+[  0%] Built target bno055_usb_stick_msgs_generate_messages_cpp
+[100%] Built target bno055_usb_stick_node
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[  0%] Built target bno055_usb_stick_msgs_generate_messages_cpp
+[100%] Built target bno055_usb_stick_node
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick/lib/pkgconfig/bno055_usb_stick.pc
+-- Installing: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick/share/bno055_usb_stick/cmake/bno055_usb_stickConfig.cmake
+-- Installing: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick/share/bno055_usb_stick/cmake/bno055_usb_stickConfig-version.cmake
+-- Installing: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick/share/bno055_usb_stick/package.xml
+-- Installing: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick/lib/bno055_usb_stick/bno055_usb_stick_node
+-- Set runtime path of "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick/lib/bno055_usb_stick/bno055_usb_stick_node" to ""
+-- Installing: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick/include/bno055_usb_stick
+-- Installing: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick/include/bno055_usb_stick/constants.hpp
+-- Installing: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick/include/bno055_usb_stick/bno055_usb_stick.hpp
+-- Installing: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick/include/bno055_usb_stick/decoder.hpp
+-- Installing: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick/include/bno055_usb_stick/match_conditions.hpp
