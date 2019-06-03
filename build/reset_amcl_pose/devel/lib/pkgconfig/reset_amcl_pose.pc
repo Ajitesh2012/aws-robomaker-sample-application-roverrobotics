@@ -1,8 +1,0 @@
-prefix=/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/reset_amcl_pose/devel
-
-Name: reset_amcl_pose
-Description: Description of reset_amcl_pose
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/reset_amcl_pose/devel/lib 
-Requires: 

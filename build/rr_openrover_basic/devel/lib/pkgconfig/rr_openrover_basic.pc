@@ -1,8 +1,0 @@
-prefix=/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/rr_openrover_basic/devel
-
-Name: rr_openrover_basic
-Description: Description of rr_openrover_basic
-Version: 0.6.2
-Cflags: -I/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/rr_openrover_basic/devel/include -I/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/src/rr_openrover_basic/include
-Libs: -L/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/rr_openrover_basic/devel/lib 
-Requires: message_runtime

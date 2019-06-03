@@ -1,8 +1,0 @@
-prefix=/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs
-
-Name: bno055_usb_stick_msgs
-Description: Description of bno055_usb_stick_msgs
-Version: 0.0.0
-Cflags: -I/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/include
-Libs: -L/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick_msgs/lib 
-Requires: geometry_msgs message_runtime std_msgs

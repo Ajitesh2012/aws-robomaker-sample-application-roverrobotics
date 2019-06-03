@@ -1,6 +1,0 @@
-#[Server Info]
-region: "us-west-2"
-
-#[Credentials]
-aws_access_key_id: "AKIAWF3HGRCM4S7YY2JA"
-aws_secret_access_key: "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"

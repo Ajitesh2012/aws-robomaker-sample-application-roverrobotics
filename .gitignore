@@ -1,0 +1,4 @@
+# exclude /build /install and /log from all folders in this repo
+**/build
+**/install
+**/log

@@ -1,8 +1,0 @@
-prefix=/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirt_dispense_msgs/devel
-
-Name: tshirt_dispense_msgs
-Description: Description of tshirt_dispense_msgs
-Version: 0.0.0
-Cflags: -I/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirt_dispense_msgs/devel/include
-Libs: -L/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirt_dispense_msgs/devel/lib 
-Requires: actionlib_msgs

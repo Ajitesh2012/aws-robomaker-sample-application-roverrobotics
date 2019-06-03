@@ -1,4 +1,0 @@
-/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/reset_amcl_pose/lib/pkgconfig/reset_amcl_pose.pc
-/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/reset_amcl_pose/share/reset_amcl_pose/cmake/reset_amcl_poseConfig.cmake
-/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/reset_amcl_pose/share/reset_amcl_pose/cmake/reset_amcl_poseConfig-version.cmake
-/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/reset_amcl_pose/share/reset_amcl_pose/package.xml

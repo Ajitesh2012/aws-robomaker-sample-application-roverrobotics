@@ -1,8 +1,0 @@
-prefix=/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/scan_correction/devel
-
-Name: scan_correction
-Description: Description of scan_correction
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/scan_correction/devel/lib 
-Requires: 

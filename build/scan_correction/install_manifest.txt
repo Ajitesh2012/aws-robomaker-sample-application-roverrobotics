@@ -1,5 +1,0 @@
-/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/scan_correction/lib/pkgconfig/scan_correction.pc
-/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/scan_correction/share/scan_correction/cmake/scan_correctionConfig.cmake
-/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/scan_correction/share/scan_correction/cmake/scan_correctionConfig-version.cmake
-/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/scan_correction/share/scan_correction/package.xml
-/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/scan_correction/share/scan_correction/scan_correction.py
