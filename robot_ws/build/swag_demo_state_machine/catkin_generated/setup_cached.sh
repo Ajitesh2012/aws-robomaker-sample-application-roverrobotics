@@ -7,8 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/swag_demo_state_machine/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/swag_demo_state_machine/devel/lib:/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/lib:/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app/lib:/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/swag_demo_state_machine/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/swag_demo_state_machine/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/swag_demo_state_machine:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/swag_demo_state_machine/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirt_dispense_msgs/lib:$LD_LIBRARY_PATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/swag_demo_state_machine/devel/share/common-lisp"
+export ROS_PACKAGE_PATH="/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/src/swag_demo_state_machine:$ROS_PACKAGE_PATH"

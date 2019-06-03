@@ -1,8 +1,8 @@
-# Install script for directory: /home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/src/simulation_app
+# Install script for directory: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/simulation_ws/src/simulation_app
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app")
+  set(CMAKE_INSTALL_PREFIX "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -32,38 +32,34 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
-# Is this installation the result of a crosscompile?
-if(NOT DEFINED CMAKE_CROSSCOMPILING)
-  set(CMAKE_CROSSCOMPILING "FALSE")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app/catkin_generated/installspace/simulation_app.pc")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app/catkin_generated/installspace/simulation_app.pc")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/simulation_app/cmake" TYPE FILE FILES
-    "/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app/catkin_generated/installspace/simulation_appConfig.cmake"
-    "/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app/catkin_generated/installspace/simulation_appConfig-version.cmake"
+    "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app/catkin_generated/installspace/simulation_appConfig.cmake"
+    "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app/catkin_generated/installspace/simulation_appConfig-version.cmake"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/simulation_app" TYPE FILE FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/src/simulation_app/package.xml")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/simulation_app" TYPE FILE FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/simulation_ws/src/simulation_app/package.xml")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/simulation_app" TYPE DIRECTORY FILES
-    "/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/src/simulation_app/launch"
-    "/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/src/simulation_app/models"
-    "/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/src/simulation_app/worlds"
-    "/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/src/simulation_app/urdf"
+    "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/simulation_ws/src/simulation_app/launch"
+    "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/simulation_ws/src/simulation_app/models"
+    "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/simulation_ws/src/simulation_app/worlds"
+    "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/simulation_ws/src/simulation_app/urdf"
+    "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/simulation_ws/src/simulation_app/meshes"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app/gtest/cmake_install.cmake")
+  include("/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app/gtest/cmake_install.cmake")
 
 endif()
 
@@ -75,5 +71,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/simulation_ws/build/simulation_app/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

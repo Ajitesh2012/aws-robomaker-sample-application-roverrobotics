@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/rr_openrover_basic/src/odom_control.cpp" "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/CMakeFiles/odom_control.dir/src/odom_control.cpp.o"
+  "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/src/rr_openrover_basic/src/odom_control.cpp" "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/CMakeFiles/odom_control.dir/src/odom_control.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,9 +17,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "devel/include"
-  "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/rr_openrover_basic/include"
-  "/opt/ros/melodic/include"
-  "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+  "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/src/rr_openrover_basic/include"
+  "/opt/ros/kinetic/include"
+  "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )
 
 # Targets to which this target links.

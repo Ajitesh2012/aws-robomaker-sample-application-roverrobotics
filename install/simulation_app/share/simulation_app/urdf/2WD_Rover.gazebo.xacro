@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<robot name="rover_sim" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <gazebo reference="base_link">
+    <material>Gazebo/FlatBlack</material>
+  </gazebo>
+
+  <gazebo reference="sheetmetal_link">
+    <material>Gazebo/FlatBlack</material>
+  </gazebo>
+
+  <gazebo reference="wheel_left_link">
+    <mu1>0.7</mu1>
+    <mu2>1.0</mu2>
+    <kp>300000.0</kp>
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="wheel_right_link">
+    <mu1>0.7</mu1>
+    <mu2>1.0</mu2>
+    <kp>300000.0</kp>
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="caster_back_left_link">
+    <mu1>0.1</mu1>
+    <mu2>0.6</mu2>
+    <kp>200000.0</kp>
+    <material>Gazebo/Grey</material>
+  </gazebo>
+
+  <gazebo reference="caster_back_right_link">
+    <mu1>0.1</mu1>
+    <mu2>0.6</mu2>
+    <kp>200000.0</kp>
+    <material>Gazebo/Grey</material>
+  </gazebo>
+
+  <gazebo reference="plate_link">
+    <material>Gazebo/GreyTransparent</material>
+  </gazebo>
+
+
+  <gazebo>
+    <plugin name="imu_plugin" filename="libgazebo_ros_imu.so">
+      <alwaysOn>true</alwaysOn>
+      <bodyName>imu_link</bodyName>
+      <frameName>imu_link</frameName>
+      <topicName>imu</topicName>
+      <serviceName>imu_service</serviceName>
+      <gaussianNoise>0.0</gaussianNoise>
+      <updateRate>30</updateRate>
+      <imu>
+        <noise>
+          <type>gaussian</type>
+          <rate>
+            <mean>0.0</mean>
+            <stddev>2e-4</stddev>
+            <bias_mean>0.0000075</bias_mean>
+            <bias_stddev>0.0000008</bias_stddev>
+          </rate>
+          <accel>
+            <mean>0.0</mean>
+            <stddev>1.7e-2</stddev>
+            <bias_mean>0.1</bias_mean>
+            <bias_stddev>0.001</bias_stddev>
+          </accel>
+        </noise>
+      </imu>
+    </plugin>
+  </gazebo>
+
+  <gazebo reference="cpu_link">
+    <material>Gazebo/DarkGrey</material>
+  </gazebo>
+
+  <gazebo reference="lidar_link">
+    <material>Gazebo/FlatBlack</material>
+    <sensor type="ray" name="lds_lfcd_sensor">
+      <pose>0 0 0 0 0 0</pose>
+      <update_rate>13</update_rate>
+      <ray>
+        <scan>
+          <horizontal>
+            <samples>360</samples>
+            <resolution>1</resolution>
+            <min_angle>0.0</min_angle>
+            <max_angle>6.28319</max_angle>
+          </horizontal>
+        </scan>
+        <range>
+          <min>0.120</min>
+          <max>3.5</max>
+          <resolution>0.015</resolution>
+        </range>
+        <noise>
+          <type>gaussian</type>
+          <mean>0.0</mean>
+          <stddev>0.01</stddev>
+        </noise>
+      </ray>
+      <plugin name="gazebo_ros_lds_lfcd_controller" filename="libgazebo_ros_laser.so">
+        <topicName>scan</topicName>
+        <frameName>lidar_link</frameName>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+
+  <gazebo>
+    <plugin name="turtlebot3_waffle_controller" filename="libgazebo_ros_diff_drive.so">
+        <commandTopic>cmd_vel/managed</commandTopic>
+      <odometryTopic>odom</odometryTopic>
+      <odometryFrame>odom</odometryFrame>
+      <odometrySource>world</odometrySource>
+      <publishOdomTF>true</publishOdomTF>
+      <robotBaseFrame>base_footprint</robotBaseFrame>
+      <publishWheelTF>false</publishWheelTF>
+      <publishTf>true</publishTf>
+      <publishWheelJointState>true</publishWheelJointState>
+      <legacyMode>false</legacyMode>
+      <updateRate>30</updateRate>
+      <leftJoint>wheel_left_joint</leftJoint>
+      <rightJoint>wheel_right_joint</rightJoint>
+      <wheelSeparation>0.287</wheelSeparation>
+      <wheelDiameter>0.066</wheelDiameter>
+      <wheelAcceleration>1</wheelAcceleration>
+      <wheelTorque>10</wheelTorque>
+      <rosDebugLevel>na</rosDebugLevel>
+    </plugin>
+  </gazebo>
+
+  <gazebo>
+    <plugin name="gazebo_joint_publisher" filename="libgazebo_ros_joint_state_publisher.so">
+      <joint_name>wheel_left_joint</joint_name>
+      <joint_name>wheel_right_joint</joint_name>
+      <joint_name>caster_back_left_joint</joint_name>
+      <joint_name>caster_back_right_joint</joint_name>
+      <update_rate>30.0</update_rate>
+    </plugin>
+  </gazebo>
+
+</robot>

@@ -1,0 +1,231 @@
+Invoking command in '/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic': /usr/bin/cmake /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/src/rr_openrover_basic -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic
+-- The C compiler identification is GNU 5.5.0
+-- The CXX compiler identification is GNU 5.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/kinetic
+-- This workspace overlays: /opt/ros/kinetic
+-- Found PythonInterp: /usr/bin/python (found version "2.7.12") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- rr_openrover_basic: 4 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic
+Invoked command in '/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic' returned '0': /usr/bin/cmake /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/src/rr_openrover_basic -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic
+Invoking command in '/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic': /usr/bin/cmake --build /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic -- -j12 -l12
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target _rr_openrover_basic_generate_messages_check_deps_RawRrOpenroverBasicMedRateData[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target _rr_openrover_basic_generate_messages_check_deps_RawRrOpenroverBasicSlowRateData[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target _rr_openrover_basic_generate_messages_check_deps_RawRrOpenroverBasicFastRateData[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target odom_control[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target _rr_openrover_basic_generate_messages_check_deps_SmartBatteryStatus[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target nav_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_nodejs[0m
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  3%] [32mBuilding CXX object CMakeFiles/odom_control.dir/src/odom_control.cpp.o[0m
+[  3%] Built target nav_msgs_generate_messages_py
+[  3%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  3%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_eus[0m
+[  3%] Built target _rr_openrover_basic_generate_messages_check_deps_SmartBatteryStatus
+[  3%] Built target _rr_openrover_basic_generate_messages_check_deps_RawRrOpenroverBasicFastRateData
+[  3%] Built target nav_msgs_generate_messages_eus
+[  3%] Built target _rr_openrover_basic_generate_messages_check_deps_RawRrOpenroverBasicSlowRateData
+[  3%] Built target nav_msgs_generate_messages_nodejs
+[  3%] Built target _rr_openrover_basic_generate_messages_check_deps_RawRrOpenroverBasicMedRateData
+[  3%] Built target geometry_msgs_generate_messages_eus
+[  3%] Built target std_msgs_generate_messages_nodejs
+[  3%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rr_openrover_basic_generate_messages_py[0m
+[35m[1mScanning dependencies of target rr_openrover_basic_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target rr_openrover_basic_generate_messages_cpp[0m
+[  7%] [34m[1mGenerating Python from MSG rr_openrover_basic/RawRrOpenroverBasicSlowRateData[0m
+[ 11%] [34m[1mGenerating C++ code from rr_openrover_basic/RawRrOpenroverBasicSlowRateData.msg[0m
+[35m[1mScanning dependencies of target rr_openrover_basic_generate_messages_lisp[0m
+[ 23%] [34m[1mGenerating Python from MSG rr_openrover_basic/RawRrOpenroverBasicFastRateData[0m
+[ 30%] [34m[1mGenerating Python from MSG rr_openrover_basic/RawRrOpenroverBasicMedRateData[0m
+[ 15%] [34m[1mGenerating Python from MSG rr_openrover_basic/SmartBatteryStatus[0m
+[ 19%] [34m[1mGenerating C++ code from rr_openrover_basic/RawRrOpenroverBasicFastRateData.msg[0m
+[ 26%] [34m[1mGenerating C++ code from rr_openrover_basic/RawRrOpenroverBasicMedRateData.msg[0m
+[ 34%] [34m[1mGenerating C++ code from rr_openrover_basic/SmartBatteryStatus.msg[0m
+[35m[1mScanning dependencies of target rr_openrover_basic_generate_messages_eus[0m
+[ 38%] [34m[1mGenerating Javascript code from rr_openrover_basic/RawRrOpenroverBasicSlowRateData.msg[0m
+[ 42%] [34m[1mGenerating Lisp code from rr_openrover_basic/RawRrOpenroverBasicSlowRateData.msg[0m
+[ 46%] [34m[1mGenerating EusLisp code from rr_openrover_basic/RawRrOpenroverBasicSlowRateData.msg[0m
+[ 50%] [34m[1mGenerating Lisp code from rr_openrover_basic/RawRrOpenroverBasicFastRateData.msg[0m
+[ 53%] [34m[1mGenerating Javascript code from rr_openrover_basic/RawRrOpenroverBasicMedRateData.msg[0m
+[ 57%] [34m[1mGenerating Javascript code from rr_openrover_basic/RawRrOpenroverBasicFastRateData.msg[0m
+[ 61%] [34m[1mGenerating Lisp code from rr_openrover_basic/RawRrOpenroverBasicMedRateData.msg[0m
+[ 65%] [34m[1mGenerating Python msg __init__.py for rr_openrover_basic[0m
+[ 69%] [34m[1mGenerating EusLisp code from rr_openrover_basic/SmartBatteryStatus.msg[0m
+[ 73%] [34m[1mGenerating EusLisp code from rr_openrover_basic/RawRrOpenroverBasicFastRateData.msg[0m
+[ 76%] [34m[1mGenerating Lisp code from rr_openrover_basic/SmartBatteryStatus.msg[0m
+[ 80%] [34m[1mGenerating EusLisp code from rr_openrover_basic/RawRrOpenroverBasicMedRateData.msg[0m
+[ 84%] [34m[1mGenerating EusLisp manifest code for rr_openrover_basic[0m
+[ 88%] [34m[1mGenerating Javascript code from rr_openrover_basic/SmartBatteryStatus.msg[0m
+[ 88%] Built target rr_openrover_basic_generate_messages_cpp
+[ 88%] Built target rr_openrover_basic_generate_messages_lisp
+[ 88%] Built target rr_openrover_basic_generate_messages_nodejs
+[ 88%] Built target rr_openrover_basic_generate_messages_py
+[ 88%] Built target rr_openrover_basic_generate_messages_eus
+[35m[1mScanning dependencies of target rr_openrover_basic_generate_messages[0m
+[ 88%] Built target rr_openrover_basic_generate_messages
+[ 92%] [32m[1mLinking CXX shared library devel/lib/libodom_control.so[0m
+[ 92%] Built target odom_control
+[35m[1mScanning dependencies of target openrover_basic_node[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/openrover_basic_node.dir/src/openrover_basic.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/rr_openrover_basic/openrover_basic_node[0m
+[100%] Built target openrover_basic_node
+Invoked command in '/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic' returned '0': /usr/bin/cmake --build /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic -- -j12 -l12
+Invoking command in '/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic': /usr/bin/cmake --build /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic --target install
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _rr_openrover_basic_generate_messages_check_deps_SmartBatteryStatus
+[  0%] Built target _rr_openrover_basic_generate_messages_check_deps_RawRrOpenroverBasicMedRateData
+[  0%] Built target _rr_openrover_basic_generate_messages_check_deps_RawRrOpenroverBasicSlowRateData
+[  0%] Built target _rr_openrover_basic_generate_messages_check_deps_RawRrOpenroverBasicFastRateData
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[ 15%] Built target rr_openrover_basic_generate_messages_cpp
+[ 23%] Built target odom_control
+[ 30%] Built target openrover_basic_node
+[ 30%] Built target nav_msgs_generate_messages_lisp
+[ 30%] Built target std_msgs_generate_messages_lisp
+[ 30%] Built target geometry_msgs_generate_messages_lisp
+[ 46%] Built target rr_openrover_basic_generate_messages_lisp
+[ 46%] Built target nav_msgs_generate_messages_py
+[ 46%] Built target geometry_msgs_generate_messages_py
+[ 46%] Built target std_msgs_generate_messages_py
+[ 65%] Built target rr_openrover_basic_generate_messages_py
+[ 65%] Built target nav_msgs_generate_messages_nodejs
+[ 65%] Built target geometry_msgs_generate_messages_nodejs
+[ 65%] Built target std_msgs_generate_messages_nodejs
+[ 80%] Built target rr_openrover_basic_generate_messages_nodejs
+[ 80%] Built target nav_msgs_generate_messages_eus
+[ 80%] Built target std_msgs_generate_messages_eus
+[ 80%] Built target geometry_msgs_generate_messages_eus
+[100%] Built target rr_openrover_basic_generate_messages_eus
+[100%] Built target rr_openrover_basic_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/rr_openrover_basic/msg/RawRrOpenroverBasicFastRateData.msg
+-- Up-to-date: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/rr_openrover_basic/msg/RawRrOpenroverBasicMedRateData.msg
+-- Up-to-date: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/rr_openrover_basic/msg/RawRrOpenroverBasicSlowRateData.msg
+-- Up-to-date: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/rr_openrover_basic/msg/SmartBatteryStatus.msg
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/rr_openrover_basic/cmake/rr_openrover_basic-msg-paths.cmake
+-- Up-to-date: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/include/rr_openrover_basic
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/include/rr_openrover_basic/RawRrOpenroverBasicMedRateData.h
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/include/rr_openrover_basic/SmartBatteryStatus.h
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/include/rr_openrover_basic/RawRrOpenroverBasicFastRateData.h
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/include/rr_openrover_basic/RawRrOpenroverBasicSlowRateData.h
+-- Up-to-date: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/roseus/ros/rr_openrover_basic
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/roseus/ros/rr_openrover_basic/manifest.l
+-- Up-to-date: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/roseus/ros/rr_openrover_basic/msg
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/roseus/ros/rr_openrover_basic/msg/RawRrOpenroverBasicMedRateData.l
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/roseus/ros/rr_openrover_basic/msg/RawRrOpenroverBasicSlowRateData.l
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/roseus/ros/rr_openrover_basic/msg/RawRrOpenroverBasicFastRateData.l
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/roseus/ros/rr_openrover_basic/msg/SmartBatteryStatus.l
+-- Up-to-date: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/common-lisp/ros/rr_openrover_basic
+-- Up-to-date: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/common-lisp/ros/rr_openrover_basic/msg
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/common-lisp/ros/rr_openrover_basic/msg/RawRrOpenroverBasicFastRateData.lisp
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/common-lisp/ros/rr_openrover_basic/msg/_package_RawRrOpenroverBasicFastRateData.lisp
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/common-lisp/ros/rr_openrover_basic/msg/RawRrOpenroverBasicSlowRateData.lisp
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/common-lisp/ros/rr_openrover_basic/msg/SmartBatteryStatus.lisp
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/common-lisp/ros/rr_openrover_basic/msg/_package_RawRrOpenroverBasicMedRateData.lisp
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/common-lisp/ros/rr_openrover_basic/msg/_package_SmartBatteryStatus.lisp
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/common-lisp/ros/rr_openrover_basic/msg/RawRrOpenroverBasicMedRateData.lisp
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/common-lisp/ros/rr_openrover_basic/msg/_package.lisp
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/common-lisp/ros/rr_openrover_basic/msg/rr_openrover_basic-msg.asd
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/common-lisp/ros/rr_openrover_basic/msg/_package_RawRrOpenroverBasicSlowRateData.lisp
+-- Up-to-date: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/gennodejs/ros/rr_openrover_basic
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/gennodejs/ros/rr_openrover_basic/_index.js
+-- Up-to-date: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/gennodejs/ros/rr_openrover_basic/msg
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/gennodejs/ros/rr_openrover_basic/msg/_index.js
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/gennodejs/ros/rr_openrover_basic/msg/RawRrOpenroverBasicFastRateData.js
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/gennodejs/ros/rr_openrover_basic/msg/RawRrOpenroverBasicMedRateData.js
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/gennodejs/ros/rr_openrover_basic/msg/SmartBatteryStatus.js
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/gennodejs/ros/rr_openrover_basic/msg/RawRrOpenroverBasicSlowRateData.js
+Listing /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/devel/lib/python2.7/dist-packages/rr_openrover_basic ...
+Compiling /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/devel/lib/python2.7/dist-packages/rr_openrover_basic/__init__.py ...
+Listing /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/devel/lib/python2.7/dist-packages/rr_openrover_basic/msg ...
+Compiling /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/devel/lib/python2.7/dist-packages/rr_openrover_basic/msg/_RawRrOpenroverBasicFastRateData.py ...
+Compiling /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/devel/lib/python2.7/dist-packages/rr_openrover_basic/msg/_RawRrOpenroverBasicMedRateData.py ...
+Compiling /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/devel/lib/python2.7/dist-packages/rr_openrover_basic/msg/_RawRrOpenroverBasicSlowRateData.py ...
+Compiling /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/devel/lib/python2.7/dist-packages/rr_openrover_basic/msg/_SmartBatteryStatus.py ...
+Compiling /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/devel/lib/python2.7/dist-packages/rr_openrover_basic/msg/__init__.py ...
+-- Up-to-date: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/lib/python2.7/dist-packages/rr_openrover_basic
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/lib/python2.7/dist-packages/rr_openrover_basic/__init__.py
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/lib/python2.7/dist-packages/rr_openrover_basic/__init__.pyc
+-- Up-to-date: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/lib/python2.7/dist-packages/rr_openrover_basic/msg
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/lib/python2.7/dist-packages/rr_openrover_basic/msg/__init__.py
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/lib/python2.7/dist-packages/rr_openrover_basic/msg/_RawRrOpenroverBasicSlowRateData.py
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/lib/python2.7/dist-packages/rr_openrover_basic/msg/_RawRrOpenroverBasicFastRateData.py
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/lib/python2.7/dist-packages/rr_openrover_basic/msg/_RawRrOpenroverBasicMedRateData.py
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/lib/python2.7/dist-packages/rr_openrover_basic/msg/_SmartBatteryStatus.pyc
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/lib/python2.7/dist-packages/rr_openrover_basic/msg/__init__.pyc
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/lib/python2.7/dist-packages/rr_openrover_basic/msg/_RawRrOpenroverBasicMedRateData.pyc
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/lib/python2.7/dist-packages/rr_openrover_basic/msg/_RawRrOpenroverBasicFastRateData.pyc
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/lib/python2.7/dist-packages/rr_openrover_basic/msg/_RawRrOpenroverBasicSlowRateData.pyc
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/lib/python2.7/dist-packages/rr_openrover_basic/msg/_SmartBatteryStatus.py
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/lib/pkgconfig/rr_openrover_basic.pc
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/rr_openrover_basic/cmake/rr_openrover_basic-msg-extras.cmake
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/rr_openrover_basic/cmake/rr_openrover_basicConfig.cmake
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/rr_openrover_basic/cmake/rr_openrover_basicConfig-version.cmake
+-- Up-to-date: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/rr_openrover_basic/package.xml
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/lib/rr_openrover_basic/openrover_basic_node
+-- Set runtime path of "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/lib/rr_openrover_basic/openrover_basic_node" to ""
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/lib/libodom_control.so
+-- Up-to-date: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/rr_openrover_basic/launch
+-- Up-to-date: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/rr_openrover_basic/launch/example.launch
+-- Up-to-date: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/rr_openrover_basic/launch/teleop.launch
+-- Up-to-date: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/include/rr_openrover_basic
+-- Up-to-date: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/include/rr_openrover_basic/odom_control.hpp
+-- Up-to-date: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/include/rr_openrover_basic/openrover.hpp
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic/share/rr_openrover_basic/diagnostics.py
+Invoked command in '/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic' returned '0': /usr/bin/cmake --build /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic --target install

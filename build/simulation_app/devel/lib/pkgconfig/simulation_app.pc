@@ -1,0 +1,8 @@
+prefix=/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/simulation_app/devel
+
+Name: simulation_app
+Description: Description of simulation_app
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/simulation_app/devel/lib 
+Requires: gazebo_ros

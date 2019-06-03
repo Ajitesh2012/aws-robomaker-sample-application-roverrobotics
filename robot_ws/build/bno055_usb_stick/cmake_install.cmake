@@ -1,8 +1,8 @@
-# Install script for directory: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/bno055_usb_stick
+# Install script for directory: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/src/bno055_usb_stick
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick")
+  set(CMAKE_INSTALL_PREFIX "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/bno055_usb_stick")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -32,39 +32,34 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
-# Is this installation the result of a crosscompile?
-if(NOT DEFINED CMAKE_CROSSCOMPILING)
-  set(CMAKE_CROSSCOMPILING "FALSE")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/bno055_usb_stick/catkin_generated/installspace/bno055_usb_stick.pc")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/bno055_usb_stick/catkin_generated/installspace/bno055_usb_stick.pc")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bno055_usb_stick/cmake" TYPE FILE FILES
-    "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/bno055_usb_stick/catkin_generated/installspace/bno055_usb_stickConfig.cmake"
-    "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/bno055_usb_stick/catkin_generated/installspace/bno055_usb_stickConfig-version.cmake"
+    "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/bno055_usb_stick/catkin_generated/installspace/bno055_usb_stickConfig.cmake"
+    "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/bno055_usb_stick/catkin_generated/installspace/bno055_usb_stickConfig-version.cmake"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bno055_usb_stick" TYPE FILE FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/bno055_usb_stick/package.xml")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bno055_usb_stick" TYPE FILE FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/src/bno055_usb_stick/package.xml")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/bno055_usb_stick/bno055_usb_stick_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/bno055_usb_stick/bno055_usb_stick_node")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/bno055_usb_stick/bno055_usb_stick_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/bno055_usb_stick" TYPE EXECUTABLE FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/bno055_usb_stick/devel/lib/bno055_usb_stick/bno055_usb_stick_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/bno055_usb_stick" TYPE EXECUTABLE FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/bno055_usb_stick/devel/lib/bno055_usb_stick/bno055_usb_stick_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/bno055_usb_stick/bno055_usb_stick_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/bno055_usb_stick/bno055_usb_stick_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/bno055_usb_stick/bno055_usb_stick_node"
-         OLD_RPATH "/opt/ros/melodic/lib:"
+         OLD_RPATH "/opt/ros/kinetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/bno055_usb_stick/bno055_usb_stick_node")
@@ -72,13 +67,13 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   endif()
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/bno055_usb_stick" TYPE DIRECTORY FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/bno055_usb_stick/include/bno055_usb_stick/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/[^/]*\\.hpp$" REGEX "/\\.svn$" EXCLUDE)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/bno055_usb_stick" TYPE DIRECTORY FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/src/bno055_usb_stick/include/bno055_usb_stick/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/[^/]*\\.hpp$" REGEX "/\\.svn$" EXCLUDE)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/bno055_usb_stick/gtest/cmake_install.cmake")
+  include("/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/bno055_usb_stick/gtest/cmake_install.cmake")
 
 endif()
 
@@ -90,5 +85,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/bno055_usb_stick/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/bno055_usb_stick/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

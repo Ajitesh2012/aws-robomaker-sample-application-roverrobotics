@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/swag_demo_state_machine/CMakeFiles/CMakeTmp
+Change Dir: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/swag_demo_state_machine/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8e922/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8e922.dir/build.make CMakeFiles/cmTC_8e922.dir/build
-make[1]: Entering directory '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/swag_demo_state_machine/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8e922.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_8e922.dir/CheckSymbolExists.c.o   -c /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/swag_demo_state_machine/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_8e922
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e922.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8e922.dir/CheckSymbolExists.c.o  -o cmTC_8e922 
-CMakeFiles/cmTC_8e922.dir/CheckSymbolExists.c.o: In function `main':
-CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+Run Build Command:"/usr/bin/make" "cmTC_4a6fc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4a6fc.dir/build.make CMakeFiles/cmTC_4a6fc.dir/build
+make[1]: Entering directory '/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/swag_demo_state_machine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4a6fc.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_4a6fc.dir/CheckSymbolExists.c.o   -c /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/swag_demo_state_machine/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4a6fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a6fc.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_4a6fc.dir/CheckSymbolExists.c.o  -o cmTC_4a6fc -rdynamic 
+CMakeFiles/cmTC_4a6fc.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_8e922.dir/build.make:97: recipe for target 'cmTC_8e922' failed
-make[1]: *** [cmTC_8e922] Error 1
-make[1]: Leaving directory '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/swag_demo_state_machine/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_8e922/fast' failed
-make: *** [cmTC_8e922/fast] Error 2
+CMakeFiles/cmTC_4a6fc.dir/build.make:97: recipe for target 'cmTC_4a6fc' failed
+make[1]: *** [cmTC_4a6fc] Error 1
+make[1]: Leaving directory '/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/swag_demo_state_machine/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4a6fc/fast' failed
+make: *** [cmTC_4a6fc/fast] Error 2
 
-File /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/swag_demo_state_machine/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/swag_demo_state_machine/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/swag_demo_state_machine/CMakeFiles/CMakeTmp
+Change Dir: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/swag_demo_state_machine/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6008a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6008a.dir/build.make CMakeFiles/cmTC_6008a.dir/build
-make[1]: Entering directory '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/swag_demo_state_machine/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6008a.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_6008a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_6008a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6008a.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_6008a.dir/CheckFunctionExists.c.o  -o cmTC_6008a -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_366cd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_366cd.dir/build.make CMakeFiles/cmTC_366cd.dir/build
+make[1]: Entering directory '/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/swag_demo_state_machine/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_366cd.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_366cd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_366cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_366cd.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_366cd.dir/CheckFunctionExists.c.o  -o cmTC_366cd -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_6008a.dir/build.make:97: recipe for target 'cmTC_6008a' failed
-make[1]: *** [cmTC_6008a] Error 1
-make[1]: Leaving directory '/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/swag_demo_state_machine/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_6008a/fast' failed
-make: *** [cmTC_6008a/fast] Error 2
+CMakeFiles/cmTC_366cd.dir/build.make:97: recipe for target 'cmTC_366cd' failed
+make[1]: *** [cmTC_366cd] Error 1
+make[1]: Leaving directory '/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/swag_demo_state_machine/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_366cd/fast' failed
+make: *** [cmTC_366cd/fast] Error 2
 
 

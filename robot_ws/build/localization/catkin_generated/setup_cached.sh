@@ -7,9 +7,6 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/localization/devel:/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app:/opt/ros/melodic"
-export LD_LIBRARY_PATH="/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig"
-export PYTHONPATH="/opt/ros/melodic/lib/python2.7/dist-packages"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/localization/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/localization:/home/nick/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app/share:/opt/ros/melodic/share"
+export CMAKE_PREFIX_PATH="/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/localization/devel:$CMAKE_PREFIX_PATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/localization/devel/share/common-lisp"
+export ROS_PACKAGE_PATH="/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/src/localization:$ROS_PACKAGE_PATH"

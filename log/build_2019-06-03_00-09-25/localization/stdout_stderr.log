@@ -1,0 +1,74 @@
+-- The C compiler identification is GNU 5.5.0
+-- The CXX compiler identification is GNU 5.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/localization/devel
+-- Using CMAKE_PREFIX_PATH: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app;/opt/ros/kinetic
+-- This workspace overlays: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app;/opt/ros/kinetic
+-- Found PythonInterp: /usr/bin/python (found version "2.7.12") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/localization/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/localization
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/lib/pkgconfig/localization.pc
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/share/localization/cmake/localizationConfig.cmake
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/share/localization/cmake/localizationConfig-version.cmake
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/share/localization/package.xml
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/share/localization/launch
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/share/localization/launch/gmapping.launch
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/share/localization/launch/simulation.launch
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/share/localization/launch/localization_amcl.launch
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/share/localization/launch/tuning.launch
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/share/localization/launch/odom_only.launch
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/share/localization/launch/nf_launch.launch
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/share/localization/maps
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/share/localization/maps/asym_arena.yaml
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/share/localization/maps/arena.pgm
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/share/localization/maps/navigation_map.pgm
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/share/localization/maps/arena_8x8.pgm
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/share/localization/maps/arena.yaml
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/share/localization/maps/asym_arena.pgm
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/share/localization/maps/navigation_map.yaml
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/share/localization/maps/localization_map.pgm
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/share/localization/maps/arena_nav.pgm
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/share/localization/maps/arena_8x8.yaml
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/share/localization/maps/arena_nav.yaml
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/share/localization/maps/localization_map.yaml
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/share/localization/params
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/share/localization/params/base_local_planner_params.yaml
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/share/localization/params/costmap_common_params.yaml
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/share/localization/params/local_costmap_params.yaml
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/share/localization/params/teb_local_planner_params.yaml
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/share/localization/params/dwa_local_planner_params.yaml
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/share/localization/params/global_costmap_params.yaml
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/localization/share/pre_launch_file.sh

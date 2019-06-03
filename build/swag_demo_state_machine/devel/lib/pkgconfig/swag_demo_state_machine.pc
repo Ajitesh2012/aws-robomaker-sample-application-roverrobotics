@@ -1,0 +1,8 @@
+prefix=/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/swag_demo_state_machine/devel
+
+Name: swag_demo_state_machine
+Description: Description of swag_demo_state_machine
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/swag_demo_state_machine/devel/lib 
+Requires: actionlib_msgs tshirt_dispense_msgs

@@ -1,8 +1,8 @@
-prefix=/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_control_input_manager
+prefix=/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_control_input_manager
 
 Name: rr_control_input_manager
 Description: Description of rr_control_input_manager
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_control_input_manager/lib 
+Libs: -L/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_control_input_manager/lib 
 Requires: 

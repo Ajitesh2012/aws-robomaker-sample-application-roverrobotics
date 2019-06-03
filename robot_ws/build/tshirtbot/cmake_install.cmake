@@ -1,8 +1,8 @@
-# Install script for directory: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/tshirtbot
+# Install script for directory: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/src/tshirtbot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirtbot")
+  set(CMAKE_INSTALL_PREFIX "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirtbot")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -32,97 +32,92 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
-# Is this installation the result of a crosscompile?
-if(NOT DEFINED CMAKE_CROSSCOMPILING)
-  set(CMAKE_CROSSCOMPILING "FALSE")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  include("/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/catkin_generated/safe_execute_install.cmake")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/catkin_generated/safe_execute_install.cmake")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tshirtbot/action" TYPE FILE FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/src/tshirtbot/action/TShirtSize.action")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tshirtbot/action" TYPE FILE FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/tshirtbot/action/TShirtSize.action")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tshirtbot/msg" TYPE FILE FILES
-    "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/devel/share/tshirtbot/msg/TShirtSizeAction.msg"
-    "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/devel/share/tshirtbot/msg/TShirtSizeActionGoal.msg"
-    "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/devel/share/tshirtbot/msg/TShirtSizeActionResult.msg"
-    "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/devel/share/tshirtbot/msg/TShirtSizeActionFeedback.msg"
-    "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/devel/share/tshirtbot/msg/TShirtSizeGoal.msg"
-    "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/devel/share/tshirtbot/msg/TShirtSizeResult.msg"
-    "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/devel/share/tshirtbot/msg/TShirtSizeFeedback.msg"
+    "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/devel/share/tshirtbot/msg/TShirtSizeAction.msg"
+    "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/devel/share/tshirtbot/msg/TShirtSizeActionGoal.msg"
+    "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/devel/share/tshirtbot/msg/TShirtSizeActionResult.msg"
+    "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/devel/share/tshirtbot/msg/TShirtSizeActionFeedback.msg"
+    "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/devel/share/tshirtbot/msg/TShirtSizeGoal.msg"
+    "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/devel/share/tshirtbot/msg/TShirtSizeResult.msg"
+    "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/devel/share/tshirtbot/msg/TShirtSizeFeedback.msg"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tshirtbot/cmake" TYPE FILE FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/catkin_generated/installspace/tshirtbot-msg-paths.cmake")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tshirtbot/cmake" TYPE FILE FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/catkin_generated/installspace/tshirtbot-msg-paths.cmake")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/devel/include/tshirtbot")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/devel/include/tshirtbot")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/devel/share/roseus/ros/tshirtbot")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/devel/share/roseus/ros/tshirtbot")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/devel/share/common-lisp/ros/tshirtbot")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/devel/share/common-lisp/ros/tshirtbot")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/devel/share/gennodejs/ros/tshirtbot")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/devel/share/gennodejs/ros/tshirtbot")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/devel/lib/python2.7/dist-packages/tshirtbot")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/devel/lib/python2.7/dist-packages/tshirtbot")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/devel/lib/python2.7/dist-packages/tshirtbot" REGEX "/\\_\\_init\\_\\_\\.py$" EXCLUDE REGEX "/\\_\\_init\\_\\_\\.pyc$" EXCLUDE)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/devel/lib/python2.7/dist-packages/tshirtbot" REGEX "/\\_\\_init\\_\\_\\.py$" EXCLUDE REGEX "/\\_\\_init\\_\\_\\.pyc$" EXCLUDE)
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/devel/lib/python2.7/dist-packages/tshirtbot" FILES_MATCHING REGEX "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/devel/lib/python2.7/dist-packages/tshirtbot/.+/__init__.pyc?$")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/devel/lib/python2.7/dist-packages/tshirtbot" FILES_MATCHING REGEX "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/devel/lib/python2.7/dist-packages/tshirtbot/.+/__init__.pyc?$")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/catkin_generated/installspace/tshirtbot.pc")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/catkin_generated/installspace/tshirtbot.pc")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tshirtbot/cmake" TYPE FILE FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/catkin_generated/installspace/tshirtbot-msg-extras.cmake")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tshirtbot/cmake" TYPE FILE FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/catkin_generated/installspace/tshirtbot-msg-extras.cmake")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tshirtbot/cmake" TYPE FILE FILES
-    "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/catkin_generated/installspace/tshirtbotConfig.cmake"
-    "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/catkin_generated/installspace/tshirtbotConfig-version.cmake"
+    "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/catkin_generated/installspace/tshirtbotConfig.cmake"
+    "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/catkin_generated/installspace/tshirtbotConfig-version.cmake"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tshirtbot" TYPE FILE FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/tshirtbot/package.xml")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tshirtbot" TYPE FILE FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/src/tshirtbot/package.xml")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tshirtbot" TYPE PROGRAM FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/catkin_generated/installspace/get_tshirt.py")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tshirtbot" TYPE PROGRAM FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/catkin_generated/installspace/get_tshirt.py")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tshirtbot" TYPE DIRECTORY FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/tshirtbot/launch")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tshirtbot" TYPE DIRECTORY FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/src/tshirtbot/launch")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tshirtbot" TYPE DIRECTORY FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/tshirtbot/config")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tshirtbot" TYPE DIRECTORY FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/src/tshirtbot/config")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/gtest/cmake_install.cmake")
+  include("/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/gtest/cmake_install.cmake")
 
 endif()
 
@@ -134,5 +129,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

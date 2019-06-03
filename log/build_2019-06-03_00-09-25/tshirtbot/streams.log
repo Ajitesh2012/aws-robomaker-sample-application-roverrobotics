@@ -1,0 +1,270 @@
+Invoking command in '/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/tshirtbot': /usr/bin/cmake /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/src/tshirtbot -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot
+-- The C compiler identification is GNU 5.5.0
+-- The CXX compiler identification is GNU 5.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/tshirtbot/devel
+-- Using CMAKE_PREFIX_PATH: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app;/opt/ros/kinetic
+-- This workspace overlays: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/simulation_ws/install/simulation_app;/opt/ros/kinetic
+-- Found PythonInterp: /usr/bin/python (found version "2.7.12") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/tshirtbot/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Generating .msg files for action tshirtbot/TShirtSize /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/src/tshirtbot/action/TShirtSize.action
+Generating for action TShirtSize
+-- tshirtbot: 7 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/tshirtbot
+Invoked command in '/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/tshirtbot' returned '0': /usr/bin/cmake /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/src/tshirtbot -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot
+Invoking command in '/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/tshirtbot': /usr/bin/cmake --build /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/tshirtbot -- -j12 -l12
+[35m[1mScanning dependencies of target _tshirtbot_generate_messages_check_deps_TShirtSizeAction[0m
+[35m[1mScanning dependencies of target _tshirtbot_generate_messages_check_deps_TShirtSizeResult[0m
+[35m[1mScanning dependencies of target _tshirtbot_generate_messages_check_deps_TShirtSizeFeedback[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target _tshirtbot_generate_messages_check_deps_TShirtSizeActionResult[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target _tshirtbot_generate_messages_check_deps_TShirtSizeGoal[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target _tshirtbot_generate_messages_check_deps_TShirtSizeActionFeedback[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target _tshirtbot_generate_messages_check_deps_TShirtSizeActionGoal[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[  0%] Built target _tshirtbot_generate_messages_check_deps_TShirtSizeFeedback
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target _tshirtbot_generate_messages_check_deps_TShirtSizeResult
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target _tshirtbot_generate_messages_check_deps_TShirtSizeActionResult
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target _tshirtbot_generate_messages_check_deps_TShirtSizeAction
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _tshirtbot_generate_messages_check_deps_TShirtSizeGoal
+[  0%] Built target _tshirtbot_generate_messages_check_deps_TShirtSizeActionGoal
+[  0%] Built target _tshirtbot_generate_messages_check_deps_TShirtSizeActionFeedback
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tshirtbot_generate_messages_py[0m
+[35m[1mScanning dependencies of target tshirtbot_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target tshirtbot_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target tshirtbot_generate_messages_nodejs[0m
+[  2%] [34m[1mGenerating Python from MSG tshirtbot/TShirtSizeGoal[0m
+[35m[1mScanning dependencies of target tshirtbot_generate_messages_eus[0m
+[  5%] [34m[1mGenerating Python from MSG tshirtbot/TShirtSizeActionGoal[0m
+[  8%] [34m[1mGenerating Python from MSG tshirtbot/TShirtSizeFeedback[0m
+[ 10%] [34m[1mGenerating Python from MSG tshirtbot/TShirtSizeActionResult[0m
+[ 13%] [34m[1mGenerating Python from MSG tshirtbot/TShirtSizeActionFeedback[0m
+[ 16%] [34m[1mGenerating Python from MSG tshirtbot/TShirtSizeAction[0m
+[ 24%] [34m[1mGenerating Lisp code from tshirtbot/TShirtSizeResult.msg[0m
+[ 18%] [34m[1mGenerating C++ code from tshirtbot/TShirtSizeResult.msg[0m
+[ 21%] [34m[1mGenerating Python from MSG tshirtbot/TShirtSizeResult[0m
+[ 27%] [34m[1mGenerating Lisp code from tshirtbot/TShirtSizeActionFeedback.msg[0m
+[ 29%] [34m[1mGenerating EusLisp code from tshirtbot/TShirtSizeResult.msg[0m
+[ 32%] [34m[1mGenerating Javascript code from tshirtbot/TShirtSizeResult.msg[0m
+[ 35%] [34m[1mGenerating EusLisp code from tshirtbot/TShirtSizeActionFeedback.msg[0m
+[ 37%] [34m[1mGenerating Javascript code from tshirtbot/TShirtSizeActionFeedback.msg[0m
+[ 40%] [34m[1mGenerating Lisp code from tshirtbot/TShirtSizeActionGoal.msg[0m
+[ 43%] [34m[1mGenerating EusLisp code from tshirtbot/TShirtSizeActionGoal.msg[0m
+[ 45%] [34m[1mGenerating Lisp code from tshirtbot/TShirtSizeFeedback.msg[0m
+[ 48%] [34m[1mGenerating Lisp code from tshirtbot/TShirtSizeActionResult.msg[0m
+[ 51%] [34m[1mGenerating Javascript code from tshirtbot/TShirtSizeActionGoal.msg[0m
+[ 54%] [34m[1mGenerating C++ code from tshirtbot/TShirtSizeActionGoal.msg[0m
+[ 56%] [34m[1mGenerating EusLisp code from tshirtbot/TShirtSizeFeedback.msg[0m
+[ 59%] [34m[1mGenerating Lisp code from tshirtbot/TShirtSizeGoal.msg[0m
+[ 62%] [34m[1mGenerating Lisp code from tshirtbot/TShirtSizeAction.msg[0m
+[ 64%] [34m[1mGenerating EusLisp code from tshirtbot/TShirtSizeActionResult.msg[0m
+[ 67%] [34m[1mGenerating C++ code from tshirtbot/TShirtSizeActionFeedback.msg[0m
+[ 70%] [34m[1mGenerating EusLisp code from tshirtbot/TShirtSizeAction.msg[0m
+[ 72%] [34m[1mGenerating Python msg __init__.py for tshirtbot[0m
+[ 75%] [34m[1mGenerating EusLisp code from tshirtbot/TShirtSizeGoal.msg[0m
+[ 78%] [34m[1mGenerating Javascript code from tshirtbot/TShirtSizeActionResult.msg[0m
+[ 81%] [34m[1mGenerating Javascript code from tshirtbot/TShirtSizeGoal.msg[0m
+[ 83%] [34m[1mGenerating Javascript code from tshirtbot/TShirtSizeAction.msg[0m
+[ 86%] [34m[1mGenerating Javascript code from tshirtbot/TShirtSizeFeedback.msg[0m
+[ 89%] [34m[1mGenerating EusLisp manifest code for tshirtbot[0m
+[ 89%] Built target tshirtbot_generate_messages_lisp
+[ 91%] [34m[1mGenerating C++ code from tshirtbot/TShirtSizeActionResult.msg[0m
+[ 94%] [34m[1mGenerating C++ code from tshirtbot/TShirtSizeAction.msg[0m
+[ 97%] [34m[1mGenerating C++ code from tshirtbot/TShirtSizeFeedback.msg[0m
+[100%] [34m[1mGenerating C++ code from tshirtbot/TShirtSizeGoal.msg[0m
+[100%] Built target tshirtbot_generate_messages_py
+[100%] Built target tshirtbot_generate_messages_nodejs
+[100%] Built target tshirtbot_generate_messages_cpp
+[100%] Built target tshirtbot_generate_messages_eus
+[35m[1mScanning dependencies of target tshirtbot_generate_messages[0m
+[100%] Built target tshirtbot_generate_messages
+Invoked command in '/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/tshirtbot' returned '0': /usr/bin/cmake --build /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/tshirtbot -- -j12 -l12
+Invoking command in '/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/tshirtbot': /usr/bin/cmake --build /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/tshirtbot --target install
+[  0%] Built target _tshirtbot_generate_messages_check_deps_TShirtSizeAction
+[  0%] Built target _tshirtbot_generate_messages_check_deps_TShirtSizeGoal
+[  0%] Built target _tshirtbot_generate_messages_check_deps_TShirtSizeFeedback
+[  0%] Built target _tshirtbot_generate_messages_check_deps_TShirtSizeActionResult
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _tshirtbot_generate_messages_check_deps_TShirtSizeResult
+[  0%] Built target _tshirtbot_generate_messages_check_deps_TShirtSizeActionFeedback
+[  0%] Built target _tshirtbot_generate_messages_check_deps_TShirtSizeActionGoal
+[ 18%] Built target tshirtbot_generate_messages_nodejs
+[ 18%] Built target std_msgs_generate_messages_py
+[ 18%] Built target actionlib_msgs_generate_messages_py
+[ 40%] Built target tshirtbot_generate_messages_py
+[ 40%] Built target actionlib_msgs_generate_messages_lisp
+[ 40%] Built target std_msgs_generate_messages_lisp
+[ 59%] Built target tshirtbot_generate_messages_lisp
+[ 59%] Built target std_msgs_generate_messages_eus
+[ 59%] Built target actionlib_msgs_generate_messages_eus
+[ 81%] Built target tshirtbot_generate_messages_eus
+[ 81%] Built target actionlib_msgs_generate_messages_cpp
+[ 81%] Built target std_msgs_generate_messages_cpp
+[100%] Built target tshirtbot_generate_messages_cpp
+[100%] Built target tshirtbot_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: ""
++ cd /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/src/tshirtbot
++ mkdir -p /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/lib/python2.7/dist-packages
++ /usr/bin/env PYTHONPATH=/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/lib/python2.7/dist-packages:/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/tshirtbot/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/tshirtbot /usr/bin/python /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/src/tshirtbot/setup.py build --build-base /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/tshirtbot install --install-layout=deb --prefix=/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot --install-scripts=/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/bin
+running build
+running build_py
+creating /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/tshirtbot/lib.linux-x86_64-2.7
+creating /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/tshirtbot/lib.linux-x86_64-2.7/tshirtbot
+copying src/tshirtbot/__init__.py -> /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/tshirtbot/lib.linux-x86_64-2.7/tshirtbot
+running install
+running install_lib
+creating /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/lib/python2.7/dist-packages/tshirtbot
+copying /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/tshirtbot/lib.linux-x86_64-2.7/tshirtbot/__init__.py -> /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/lib/python2.7/dist-packages/tshirtbot
+byte-compiling /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/lib/python2.7/dist-packages/tshirtbot/__init__.py to __init__.pyc
+running install_egg_info
+Writing /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/lib/python2.7/dist-packages/tshirtbot-1.0.0.egg-info
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/tshirtbot/action/TShirtSize.action
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/tshirtbot/msg/TShirtSizeAction.msg
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/tshirtbot/msg/TShirtSizeActionGoal.msg
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/tshirtbot/msg/TShirtSizeActionResult.msg
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/tshirtbot/msg/TShirtSizeActionFeedback.msg
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/tshirtbot/msg/TShirtSizeGoal.msg
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/tshirtbot/msg/TShirtSizeResult.msg
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/tshirtbot/msg/TShirtSizeFeedback.msg
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/tshirtbot/cmake/tshirtbot-msg-paths.cmake
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/include/tshirtbot
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/include/tshirtbot/TShirtSizeActionGoal.h
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/include/tshirtbot/TShirtSizeGoal.h
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/include/tshirtbot/TShirtSizeActionResult.h
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/include/tshirtbot/TShirtSizeActionFeedback.h
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/include/tshirtbot/TShirtSizeFeedback.h
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/include/tshirtbot/TShirtSizeAction.h
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/include/tshirtbot/TShirtSizeResult.h
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/roseus/ros/tshirtbot
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/roseus/ros/tshirtbot/manifest.l
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/roseus/ros/tshirtbot/msg
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/roseus/ros/tshirtbot/msg/TShirtSizeGoal.l
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/roseus/ros/tshirtbot/msg/TShirtSizeAction.l
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/roseus/ros/tshirtbot/msg/TShirtSizeActionFeedback.l
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/roseus/ros/tshirtbot/msg/TShirtSizeFeedback.l
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/roseus/ros/tshirtbot/msg/TShirtSizeActionResult.l
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/roseus/ros/tshirtbot/msg/TShirtSizeResult.l
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/roseus/ros/tshirtbot/msg/TShirtSizeActionGoal.l
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/common-lisp/ros/tshirtbot
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/common-lisp/ros/tshirtbot/msg
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/common-lisp/ros/tshirtbot/msg/TShirtSizeActionFeedback.lisp
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/common-lisp/ros/tshirtbot/msg/_package_TShirtSizeResult.lisp
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/common-lisp/ros/tshirtbot/msg/_package_TShirtSizeActionGoal.lisp
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/common-lisp/ros/tshirtbot/msg/TShirtSizeActionGoal.lisp
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/common-lisp/ros/tshirtbot/msg/TShirtSizeGoal.lisp
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/common-lisp/ros/tshirtbot/msg/TShirtSizeResult.lisp
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/common-lisp/ros/tshirtbot/msg/tshirtbot-msg.asd
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/common-lisp/ros/tshirtbot/msg/_package_TShirtSizeGoal.lisp
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/common-lisp/ros/tshirtbot/msg/_package_TShirtSizeFeedback.lisp
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/common-lisp/ros/tshirtbot/msg/TShirtSizeFeedback.lisp
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/common-lisp/ros/tshirtbot/msg/_package.lisp
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/common-lisp/ros/tshirtbot/msg/TShirtSizeActionResult.lisp
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/common-lisp/ros/tshirtbot/msg/_package_TShirtSizeAction.lisp
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/common-lisp/ros/tshirtbot/msg/_package_TShirtSizeActionFeedback.lisp
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/common-lisp/ros/tshirtbot/msg/TShirtSizeAction.lisp
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/common-lisp/ros/tshirtbot/msg/_package_TShirtSizeActionResult.lisp
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/gennodejs/ros/tshirtbot
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/gennodejs/ros/tshirtbot/_index.js
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/gennodejs/ros/tshirtbot/msg
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/gennodejs/ros/tshirtbot/msg/TShirtSizeFeedback.js
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/gennodejs/ros/tshirtbot/msg/_index.js
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/gennodejs/ros/tshirtbot/msg/TShirtSizeActionResult.js
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/gennodejs/ros/tshirtbot/msg/TShirtSizeResult.js
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/gennodejs/ros/tshirtbot/msg/TShirtSizeActionFeedback.js
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/gennodejs/ros/tshirtbot/msg/TShirtSizeGoal.js
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/gennodejs/ros/tshirtbot/msg/TShirtSizeActionGoal.js
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/gennodejs/ros/tshirtbot/msg/TShirtSizeAction.js
+Listing /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/tshirtbot/devel/lib/python2.7/dist-packages/tshirtbot ...
+Compiling /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/tshirtbot/devel/lib/python2.7/dist-packages/tshirtbot/__init__.py ...
+Listing /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/tshirtbot/devel/lib/python2.7/dist-packages/tshirtbot/msg ...
+Compiling /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/tshirtbot/devel/lib/python2.7/dist-packages/tshirtbot/msg/_TShirtSizeAction.py ...
+Compiling /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/tshirtbot/devel/lib/python2.7/dist-packages/tshirtbot/msg/_TShirtSizeActionFeedback.py ...
+Compiling /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/tshirtbot/devel/lib/python2.7/dist-packages/tshirtbot/msg/_TShirtSizeActionGoal.py ...
+Compiling /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/tshirtbot/devel/lib/python2.7/dist-packages/tshirtbot/msg/_TShirtSizeActionResult.py ...
+Compiling /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/tshirtbot/devel/lib/python2.7/dist-packages/tshirtbot/msg/_TShirtSizeFeedback.py ...
+Compiling /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/tshirtbot/devel/lib/python2.7/dist-packages/tshirtbot/msg/_TShirtSizeGoal.py ...
+Compiling /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/tshirtbot/devel/lib/python2.7/dist-packages/tshirtbot/msg/_TShirtSizeResult.py ...
+Compiling /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/tshirtbot/devel/lib/python2.7/dist-packages/tshirtbot/msg/__init__.py ...
+-- Up-to-date: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/lib/python2.7/dist-packages/tshirtbot
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/lib/python2.7/dist-packages/tshirtbot/msg
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/lib/python2.7/dist-packages/tshirtbot/msg/_TShirtSizeResult.py
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/lib/python2.7/dist-packages/tshirtbot/msg/_TShirtSizeFeedback.py
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/lib/python2.7/dist-packages/tshirtbot/msg/_TShirtSizeAction.pyc
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/lib/python2.7/dist-packages/tshirtbot/msg/_TShirtSizeActionGoal.pyc
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/lib/python2.7/dist-packages/tshirtbot/msg/_TShirtSizeGoal.pyc
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/lib/python2.7/dist-packages/tshirtbot/msg/_TShirtSizeFeedback.pyc
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/lib/python2.7/dist-packages/tshirtbot/msg/_TShirtSizeActionResult.pyc
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/lib/python2.7/dist-packages/tshirtbot/msg/_TShirtSizeActionGoal.py
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/lib/python2.7/dist-packages/tshirtbot/msg/_TShirtSizeGoal.py
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/lib/python2.7/dist-packages/tshirtbot/msg/_TShirtSizeResult.pyc
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/lib/python2.7/dist-packages/tshirtbot/msg/_TShirtSizeAction.py
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/lib/python2.7/dist-packages/tshirtbot/msg/_TShirtSizeActionFeedback.pyc
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/lib/python2.7/dist-packages/tshirtbot/msg/_TShirtSizeActionResult.py
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/lib/python2.7/dist-packages/tshirtbot/msg/_TShirtSizeActionFeedback.py
+-- Up-to-date: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/lib/python2.7/dist-packages/tshirtbot
+-- Up-to-date: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/lib/python2.7/dist-packages/tshirtbot/msg
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/lib/python2.7/dist-packages/tshirtbot/msg/__init__.py
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/lib/python2.7/dist-packages/tshirtbot/msg/__init__.pyc
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/lib/pkgconfig/tshirtbot.pc
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/tshirtbot/cmake/tshirtbot-msg-extras.cmake
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/tshirtbot/cmake/tshirtbotConfig.cmake
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/tshirtbot/cmake/tshirtbotConfig-version.cmake
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/tshirtbot/package.xml
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/lib/tshirtbot/get_tshirt.py
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/tshirtbot/launch
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/tshirtbot/launch/get_tshirt.launch
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/tshirtbot/config
+-- Installing: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/share/tshirtbot/config/config.yaml
+Invoked command in '/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/tshirtbot' returned '0': /usr/bin/cmake --build /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/tshirtbot --target install

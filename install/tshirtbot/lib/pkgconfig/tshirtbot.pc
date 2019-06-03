@@ -1,0 +1,8 @@
+prefix=/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot
+
+Name: tshirtbot
+Description: Description of tshirtbot
+Version: 1.0.0
+Cflags: -I/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/include
+Libs: -L/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/tshirtbot/lib 
+Requires: rospy std_msgs message_runtime actionlib_msgs

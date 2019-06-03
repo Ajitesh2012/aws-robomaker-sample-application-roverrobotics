@@ -1,6 +1,0 @@
-/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app/lib/pkgconfig/robot_app.pc
-/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app/share/robot_app/cmake/robot_appConfig.cmake
-/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app/share/robot_app/cmake/robot_appConfig-version.cmake
-/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app/share/robot_app/package.xml
-/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app/lib/robot_app/rotate.py
-/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/robot_app/share/robot_app/launch/rotate.launch

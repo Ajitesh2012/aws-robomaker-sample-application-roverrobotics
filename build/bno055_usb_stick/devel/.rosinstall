@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/bno055_usb_stick/devel/setup.sh

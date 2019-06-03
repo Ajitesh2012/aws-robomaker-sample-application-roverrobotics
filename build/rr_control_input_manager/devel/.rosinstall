@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/rr_control_input_manager/devel/setup.sh

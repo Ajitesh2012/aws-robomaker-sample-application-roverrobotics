@@ -1,8 +1,8 @@
-# Install script for directory: /home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/rr_openrover_basic
+# Install script for directory: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/src/rr_openrover_basic
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic")
+  set(CMAKE_INSTALL_PREFIX "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_openrover_basic")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -32,80 +32,75 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
-# Is this installation the result of a crosscompile?
-if(NOT DEFINED CMAKE_CROSSCOMPILING)
-  set(CMAKE_CROSSCOMPILING "FALSE")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rr_openrover_basic/msg" TYPE FILE FILES
-    "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/rr_openrover_basic/msg/RawRrOpenroverBasicFastRateData.msg"
-    "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/rr_openrover_basic/msg/RawRrOpenroverBasicMedRateData.msg"
-    "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/rr_openrover_basic/msg/RawRrOpenroverBasicSlowRateData.msg"
-    "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/rr_openrover_basic/msg/SmartBatteryStatus.msg"
+    "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/src/rr_openrover_basic/msg/RawRrOpenroverBasicFastRateData.msg"
+    "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/src/rr_openrover_basic/msg/RawRrOpenroverBasicMedRateData.msg"
+    "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/src/rr_openrover_basic/msg/RawRrOpenroverBasicSlowRateData.msg"
+    "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/src/rr_openrover_basic/msg/SmartBatteryStatus.msg"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rr_openrover_basic/cmake" TYPE FILE FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/catkin_generated/installspace/rr_openrover_basic-msg-paths.cmake")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rr_openrover_basic/cmake" TYPE FILE FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/catkin_generated/installspace/rr_openrover_basic-msg-paths.cmake")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/devel/include/rr_openrover_basic")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/devel/include/rr_openrover_basic")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/devel/share/roseus/ros/rr_openrover_basic")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/devel/share/roseus/ros/rr_openrover_basic")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/devel/share/common-lisp/ros/rr_openrover_basic")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/devel/share/common-lisp/ros/rr_openrover_basic")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/devel/share/gennodejs/ros/rr_openrover_basic")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/devel/share/gennodejs/ros/rr_openrover_basic")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/devel/lib/python2.7/dist-packages/rr_openrover_basic")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/devel/lib/python2.7/dist-packages/rr_openrover_basic")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/devel/lib/python2.7/dist-packages/rr_openrover_basic")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/devel/lib/python2.7/dist-packages/rr_openrover_basic")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/catkin_generated/installspace/rr_openrover_basic.pc")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/catkin_generated/installspace/rr_openrover_basic.pc")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rr_openrover_basic/cmake" TYPE FILE FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/catkin_generated/installspace/rr_openrover_basic-msg-extras.cmake")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rr_openrover_basic/cmake" TYPE FILE FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/catkin_generated/installspace/rr_openrover_basic-msg-extras.cmake")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rr_openrover_basic/cmake" TYPE FILE FILES
-    "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/catkin_generated/installspace/rr_openrover_basicConfig.cmake"
-    "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/catkin_generated/installspace/rr_openrover_basicConfig-version.cmake"
+    "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/catkin_generated/installspace/rr_openrover_basicConfig.cmake"
+    "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/catkin_generated/installspace/rr_openrover_basicConfig-version.cmake"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rr_openrover_basic" TYPE FILE FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/rr_openrover_basic/package.xml")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rr_openrover_basic" TYPE FILE FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/src/rr_openrover_basic/package.xml")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rr_openrover_basic/openrover_basic_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rr_openrover_basic/openrover_basic_node")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rr_openrover_basic/openrover_basic_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rr_openrover_basic" TYPE EXECUTABLE FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/devel/lib/rr_openrover_basic/openrover_basic_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rr_openrover_basic" TYPE EXECUTABLE FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/devel/lib/rr_openrover_basic/openrover_basic_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rr_openrover_basic/openrover_basic_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rr_openrover_basic/openrover_basic_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rr_openrover_basic/openrover_basic_node"
-         OLD_RPATH "/opt/ros/melodic/lib:/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/devel/lib:"
+         OLD_RPATH "/opt/ros/kinetic/lib:/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rr_openrover_basic/openrover_basic_node")
@@ -113,14 +108,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   endif()
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libodom_control.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libodom_control.so")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libodom_control.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/devel/lib/libodom_control.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/devel/lib/libodom_control.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libodom_control.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libodom_control.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -129,21 +124,21 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   endif()
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rr_openrover_basic/launch" TYPE DIRECTORY FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/rr_openrover_basic/launch/" FILES_MATCHING REGEX "/[^/]*\\.launch$")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rr_openrover_basic/launch" TYPE DIRECTORY FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/src/rr_openrover_basic/launch/" FILES_MATCHING REGEX "/[^/]*\\.launch$")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/rr_openrover_basic" TYPE DIRECTORY FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/rr_openrover_basic/include/rr_openrover_basic/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/[^/]*\\.hpp$")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/rr_openrover_basic" TYPE DIRECTORY FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/src/rr_openrover_basic/include/rr_openrover_basic/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/[^/]*\\.hpp$")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rr_openrover_basic" TYPE PROGRAM FILES "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/catkin_generated/installspace/diagnostics.py")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rr_openrover_basic" TYPE PROGRAM FILES "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/catkin_generated/installspace/diagnostics.py")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/gtest/cmake_install.cmake")
+  include("/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/gtest/cmake_install.cmake")
 
 endif()
 
@@ -155,5 +150,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/rr_openrover_basic/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/simulation_app/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cfe07/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cfe07.dir/build.make CMakeFiles/cmTC_cfe07.dir/build
+make[1]: Entering directory '/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/simulation_app/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cfe07.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_cfe07.dir/CheckSymbolExists.c.o   -c /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/simulation_app/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_cfe07
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfe07.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_cfe07.dir/CheckSymbolExists.c.o  -o cmTC_cfe07 -rdynamic 
+CMakeFiles/cmTC_cfe07.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_cfe07.dir/build.make:97: recipe for target 'cmTC_cfe07' failed
+make[1]: *** [cmTC_cfe07] Error 1
+make[1]: Leaving directory '/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/simulation_app/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cfe07/fast' failed
+make: *** [cmTC_cfe07/fast] Error 2
+
+File /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/simulation_app/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/simulation_app/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_09fca/fast"
+/usr/bin/make -f CMakeFiles/cmTC_09fca.dir/build.make CMakeFiles/cmTC_09fca.dir/build
+make[1]: Entering directory '/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/simulation_app/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_09fca.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_09fca.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_09fca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09fca.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_09fca.dir/CheckFunctionExists.c.o  -o cmTC_09fca -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_09fca.dir/build.make:97: recipe for target 'cmTC_09fca' failed
+make[1]: *** [cmTC_09fca] Error 1
+make[1]: Leaving directory '/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/simulation_app/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_09fca/fast' failed
+make: *** [cmTC_09fca/fast] Error 2
+
+

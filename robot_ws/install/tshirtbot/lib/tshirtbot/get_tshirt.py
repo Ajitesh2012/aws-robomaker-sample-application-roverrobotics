@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python
 """
  Copyright 2018 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 

@@ -1,0 +1,9 @@
+/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/bno055_usb_stick/lib/pkgconfig/bno055_usb_stick.pc
+/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/bno055_usb_stick/share/bno055_usb_stick/cmake/bno055_usb_stickConfig.cmake
+/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/bno055_usb_stick/share/bno055_usb_stick/cmake/bno055_usb_stickConfig-version.cmake
+/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/bno055_usb_stick/share/bno055_usb_stick/package.xml
+/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/bno055_usb_stick/lib/bno055_usb_stick/bno055_usb_stick_node
+/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/bno055_usb_stick/include/bno055_usb_stick/match_conditions.hpp
+/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/bno055_usb_stick/include/bno055_usb_stick/decoder.hpp
+/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/bno055_usb_stick/include/bno055_usb_stick/bno055_usb_stick.hpp
+/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/install/bno055_usb_stick/include/bno055_usb_stick/constants.hpp

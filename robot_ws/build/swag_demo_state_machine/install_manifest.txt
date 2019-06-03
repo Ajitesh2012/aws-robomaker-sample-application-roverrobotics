@@ -1,6 +1,6 @@
-/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/swag_demo_state_machine/lib/pkgconfig/swag_demo_state_machine.pc
-/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/swag_demo_state_machine/share/swag_demo_state_machine/cmake/swag_demo_state_machineConfig.cmake
-/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/swag_demo_state_machine/share/swag_demo_state_machine/cmake/swag_demo_state_machineConfig-version.cmake
-/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/swag_demo_state_machine/share/swag_demo_state_machine/package.xml
-/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/swag_demo_state_machine/share/swag_demo_state_machine/action_state_machine.py
-/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/swag_demo_state_machine/share/swag_demo_state_machine/state_machine_tests.py
+/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/swag_demo_state_machine/lib/pkgconfig/swag_demo_state_machine.pc
+/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/swag_demo_state_machine/share/swag_demo_state_machine/cmake/swag_demo_state_machineConfig.cmake
+/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/swag_demo_state_machine/share/swag_demo_state_machine/cmake/swag_demo_state_machineConfig-version.cmake
+/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/swag_demo_state_machine/share/swag_demo_state_machine/package.xml
+/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/swag_demo_state_machine/share/swag_demo_state_machine/action_state_machine.py
+/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/swag_demo_state_machine/share/swag_demo_state_machine/state_machine_tests.py

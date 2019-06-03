@@ -1,8 +1,8 @@
-prefix=/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/localization
+prefix=/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/localization
 
 Name: localization
 Description: Description of localization
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/localization/lib 
+Libs: -L/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/localization/lib 
 Requires: 

@@ -1,20 +1,20 @@
 
 "use strict";
 
-let TShirtSizeAction = require('./TShirtSizeAction.js');
-let TShirtSizeActionFeedback = require('./TShirtSizeActionFeedback.js');
-let TShirtSizeActionGoal = require('./TShirtSizeActionGoal.js');
 let TShirtSizeResult = require('./TShirtSizeResult.js');
+let TShirtSizeAction = require('./TShirtSizeAction.js');
+let TShirtSizeActionGoal = require('./TShirtSizeActionGoal.js');
+let TShirtSizeActionFeedback = require('./TShirtSizeActionFeedback.js');
 let TShirtSizeGoal = require('./TShirtSizeGoal.js');
-let TShirtSizeActionResult = require('./TShirtSizeActionResult.js');
 let TShirtSizeFeedback = require('./TShirtSizeFeedback.js');
+let TShirtSizeActionResult = require('./TShirtSizeActionResult.js');
 
 module.exports = {
-  TShirtSizeAction: TShirtSizeAction,
-  TShirtSizeActionFeedback: TShirtSizeActionFeedback,
-  TShirtSizeActionGoal: TShirtSizeActionGoal,
   TShirtSizeResult: TShirtSizeResult,
+  TShirtSizeAction: TShirtSizeAction,
+  TShirtSizeActionGoal: TShirtSizeActionGoal,
+  TShirtSizeActionFeedback: TShirtSizeActionFeedback,
   TShirtSizeGoal: TShirtSizeGoal,
-  TShirtSizeActionResult: TShirtSizeActionResult,
   TShirtSizeFeedback: TShirtSizeFeedback,
+  TShirtSizeActionResult: TShirtSizeActionResult,
 };

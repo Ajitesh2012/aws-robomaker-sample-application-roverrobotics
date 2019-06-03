@@ -1,6 +1,0 @@
-set(robot_app_SETUP_PY_VERSION "1.0.0")
-set(robot_app_SETUP_PY_SCRIPTS "")
-set(robot_app_SETUP_PY_PACKAGES "robot_app")
-set(robot_app_SETUP_PY_PACKAGE_DIRS "src/robot_app")
-set(robot_app_SETUP_PY_MODULES "")
-set(robot_app_SETUP_PY_MODULE_DIRS "")

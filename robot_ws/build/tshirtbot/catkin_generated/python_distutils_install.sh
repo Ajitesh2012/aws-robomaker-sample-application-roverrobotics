@@ -14,20 +14,20 @@ fi
 
 echo_and_run() { echo "+ $@" ; "$@" ; }
 
-echo_and_run cd "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/tshirtbot"
+echo_and_run cd "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/src/tshirtbot"
 
 # ensure that Python install destination exists
-echo_and_run mkdir -p "$DESTDIR/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirtbot/lib/python2.7/dist-packages"
+echo_and_run mkdir -p "$DESTDIR/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirtbot/lib/python2.7/dist-packages"
 
 # Note that PYTHONPATH is pulled from the environment to support installing
 # into one location when some dependencies were installed in another
 # location, #123.
 echo_and_run /usr/bin/env \
-    PYTHONPATH="/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirtbot/lib/python2.7/dist-packages:/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/lib/python2.7/dist-packages:$PYTHONPATH" \
-    CATKIN_BINARY_DIR="/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot" \
-    "/usr/bin/python2" \
-    "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/src/tshirtbot/setup.py" \
-    build --build-base "/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot" \
+    PYTHONPATH="/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirtbot/lib/python2.7/dist-packages:/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot/lib/python2.7/dist-packages:$PYTHONPATH" \
+    CATKIN_BINARY_DIR="/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot" \
+    "/usr/bin/python" \
+    "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/src/tshirtbot/setup.py" \
+    build --build-base "/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/build/tshirtbot" \
     install \
     $DESTDIR_ARG \
-    --install-layout=deb --prefix="/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirtbot" --install-scripts="/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirtbot/bin"
+    --install-layout=deb --prefix="/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirtbot" --install-scripts="/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/tshirtbot/bin"

@@ -1,7 +1,7 @@
-/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_control_input_manager/lib/pkgconfig/rr_control_input_manager.pc
-/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_control_input_manager/share/rr_control_input_manager/cmake/rr_control_input_managerConfig.cmake
-/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_control_input_manager/share/rr_control_input_manager/cmake/rr_control_input_managerConfig-version.cmake
-/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_control_input_manager/share/rr_control_input_manager/package.xml
-/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_control_input_manager/share/rr_control_input_manager/launch/example.launch
-/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_control_input_manager/share/rr_control_input_manager/control_input_manager.py
-/home/nick/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_control_input_manager/share/rr_control_input_manager/xbox_mapper.py
+/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_control_input_manager/lib/pkgconfig/rr_control_input_manager.pc
+/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_control_input_manager/share/rr_control_input_manager/cmake/rr_control_input_managerConfig.cmake
+/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_control_input_manager/share/rr_control_input_manager/cmake/rr_control_input_managerConfig-version.cmake
+/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_control_input_manager/share/rr_control_input_manager/package.xml
+/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_control_input_manager/share/rr_control_input_manager/launch/example.launch
+/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_control_input_manager/share/rr_control_input_manager/control_input_manager.py
+/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/robot_ws/install/rr_control_input_manager/share/rr_control_input_manager/xbox_mapper.py

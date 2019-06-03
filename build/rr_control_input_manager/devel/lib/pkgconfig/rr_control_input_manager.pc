@@ -1,0 +1,8 @@
+prefix=/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/rr_control_input_manager/devel
+
+Name: rr_control_input_manager
+Description: Description of rr_control_input_manager
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nickp/Desktop/aws-robomaker-sample-application-roverrobotics/build/rr_control_input_manager/devel/lib 
+Requires: 
