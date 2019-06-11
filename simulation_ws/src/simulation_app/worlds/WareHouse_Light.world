@@ -10,21 +10,6 @@
     </physics>
 
     <!-- models -->
-
-        <model name='remars_arena'>
-        <include>
-            <uri>model://remars_arena</uri>
-        </include>
-        <pose frame=''>-2.76 7.451 0.04 0 0 1.578</pose>
-	</model>
-
-        <model name='remars_swagbot'>
-        <include>
-            <uri>model://remars_swagbot</uri>
-        </include>
-        <pose frame='remars_arena'>-4.120 7.803 0.652 1.571 0 -1.571</pose>
-	</model>
-
         <model name='aws_robomaker_warehouse_Lamp_01_001'>
         <include>
             <uri>model://aws_robomaker_warehouse_Lamp_01</uri>

@@ -110,7 +110,7 @@
 
   <gazebo>
     <plugin name="turtlebot3_waffle_controller" filename="libgazebo_ros_diff_drive.so">
-        <commandTopic>cmd_vel/move_base</commandTopic>
+      <commandTopic>cmd_vel/move_base</commandTopic>
       <odometryTopic>odom</odometryTopic>
       <odometryFrame>odom</odometryFrame>
       <odometrySource>world</odometrySource>

@@ -1,8 +1,0 @@
-#goal
-int32 size
----
-#result definition
-int32 code
----
-#feedback definition
-int32 status
