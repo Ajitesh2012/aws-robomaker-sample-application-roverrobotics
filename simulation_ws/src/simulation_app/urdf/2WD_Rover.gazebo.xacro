@@ -40,7 +40,7 @@
   <gazebo reference="plate_link">
     <material>Gazebo/GreyTransparent</material>
   </gazebo>
-  
+
   <gazebo reference="imu_link">
     <gravity>true</gravity>
     <sensor name="imu_sensor" type="imu">
