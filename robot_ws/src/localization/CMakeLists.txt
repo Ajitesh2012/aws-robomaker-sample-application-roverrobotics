@@ -44,7 +44,3 @@ install(DIRECTORY params/
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/params
   FILES_MATCHING PATTERN "*.yaml"
 )
-
-install(FILES deploymentScripts/pre_launch_file.sh
-  DESTINATION ${CATKIN_GLOBAL_SHARE_DESTINATION}
-)
