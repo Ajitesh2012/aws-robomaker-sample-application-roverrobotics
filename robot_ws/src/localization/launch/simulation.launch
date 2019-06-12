@@ -15,14 +15,14 @@
     </node>
 
     <!--  Odom node (Scanner)  -->
-    <node pkg="robot_localization" type="ukf_localization_node" name="ekf_scan_matcher_node" >
+    <node pkg="robot_localization" type="ekf_localization_node" name="ekf_scan_matcher_node" >
         <param name="frequency" value="30"/>
         <param name="publish_tf" value="true" />
         <param name="sensor_timeout" value="0.1"/>
         <param name="two_d_mode" value="false"/>
         <remap from="odometry/filtered" to="odom/ekf/scan"/>
         <param name="map_frame" value="map"/>
-        <param name="odom_frame" value="odom"/>
+        <param name="odom_frame" value="odom_ekf"/>
         <param name="base_link_frame" value="base_footprint"/>
         <param name="world_frame" value="odom"/>
         <param name="transform_time_offset" value="0.0"/>
